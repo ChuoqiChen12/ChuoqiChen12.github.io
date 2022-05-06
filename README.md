@@ -2,7 +2,11 @@
 
   # Blog CCQ
 
- Welcome to my personal blog. In this blog, I will share my academic studying including my past pojects, paper reading and my personal opinion of specific area. Some important or fun moments in my life will also shared in this blog. 
+ Welcome to my personal blog. 
+ 
+ In this blog, I will share my academic studying including my past pojects, paper reading and my personal opinion of specific area. 
+ 
+ Some important or fun moments in my life will also shared in this blog. 
 
  Hope you will enjoy it!
 
