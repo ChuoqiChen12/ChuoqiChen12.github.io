@@ -1,0 +1,99 @@
+---
+layout: page
+# All the projects of posts
+---
+
+{% include lang.html %}
+
+{% assign HEAD_PREFIX = "h_" %}
+{% assign LIST_PREFIX = "l_" %}
+
+{% assign group_index = 0 %}
+
+{% assign sort_projects = site.projects | sort %}
+
+{% for project in sort_projects %}
+  {% assign project_name = project | first %}
+  {% assign posts_of_project = project | last %}
+  {% assign first_post = posts_of_project | first %}
+
+  {% if project_name == first_post.projects[0] %}
+    {% assign sub_projects = "" | split: "" %}
+
+    {% for post in posts_of_project %}
+      {% assign second_project = post.projects[1] %}
+      {% if second_project %}
+        {% unless sub_projects contains second_project %}
+          {% assign sub_projects = sub_projects | push: second_project %}
+        {% endunless %}
+      {% endif %}
+    {% endfor %}
+
+    {% assign sub_projects = sub_projects | sort %}
+    {% assign sub_projects_size = sub_projects | size %}
+
+  <div class="card projects">
+    <!-- top-project -->
+    <div id="{{ HEAD_PREFIX }}{{ group_index }}"
+      class="card-header d-flex justify-content-between hide-border-bottom">
+      <span>
+        <i class="far fa-folder{% if sub_projects_size > 0 %}-open{% endif %} fa-fw"></i>
+
+        {% capture _project_url %}/projects/{{ project_name | slugify | url_encode }}/{% endcapture %}
+        <a href="{{ _project_url | relative_url }}" class="ml-1 mr-2">{{ project_name }}</a>
+
+        <!-- content count -->
+        {% assign top_posts_size = site.projects[project_name] | size %}
+        <span class="text-muted small font-weight-light">
+          {% if sub_projects_size > 0 %}
+            {{ sub_projects_size }}
+            {{ site.data.locales[lang].projects.project_measure }},
+          {% endif %}
+            {{ top_posts_size }}
+            {{ site.data.locales[lang].projects.post_measure }}
+        </span>
+      </span>
+
+      <!-- arrow -->
+      {% if sub_projects_size > 0%}
+      <a href="#{{ LIST_PREFIX }}{{ group_index }}" data-toggle="collapse"
+        aria-expanded="true" aria-label="{{ HEAD_PREFIX }}{{ group_index }}-trigger"
+        class="project-trigger hide-border-bottom">
+        <i class="fas fa-fw fa-angle-down"></i>
+      </a>
+      {% else %}
+      <span data-toggle="collapse" class="project-trigger hide-border-bottom disabled">
+        <i class="fas fa-fw fa-angle-right"></i>
+      </span>
+      {% endif %}
+
+    </div> <!-- .card-header -->
+
+    <!-- Sub-projects -->
+    {% if sub_projects_size > 0 %}
+    <div id="{{ LIST_PREFIX }}{{ group_index }}" class="collapse show" aria-expanded="true">
+      <ul class="list-group">
+        {% for sub_project in sub_projects %}
+        <li class="list-group-item">
+          <i class="far fa-folder fa-fw"></i>
+
+          {% capture _sub_ctg_url %}/projects/{{ sub_project | slugify | url_encode }}/{% endcapture %}
+          <a href="{{ _sub_ctg_url | relative_url }}" class="ml-1 mr-2">{{ sub_project }}</a>
+
+          {% assign posts_size = site.projects[sub_project] | size %}
+          <span class="text-muted small font-weight-light">
+            {{ posts_size }}
+            {{ site.data.locales[lang].projects.post_measure }}
+          </span>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+    {% endif %}
+
+  </div> <!-- .card -->
+
+    {% assign group_index = group_index | plus: 1 %}
+
+  {% endif %}
+{% endfor %}
