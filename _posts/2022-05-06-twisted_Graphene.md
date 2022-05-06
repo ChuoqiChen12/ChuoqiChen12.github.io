@@ -3,7 +3,7 @@ title: Terahertz Detectors Based on Twisted Bi-layer Graphene
 author: Chuoqi Chen
 date: 2022-05-06 18:02:00 -0400
 categories: [Projects, 2D Material]
-tags: [2dmaterial]
+tags: [2d material]
 math: true
 mermaid: true
 # image:
