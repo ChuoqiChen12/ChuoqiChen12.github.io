@@ -1,9 +1,9 @@
 ---
-title: Resonance-enhance Low-frequency Raman Scattering Study of Molybdenum Telluride (MoTe_2) 
+title: Phonan Vibration in Molybdenum Ditelluride
 author: Chuoqi Chen
 date: 2022-05-06 12:58:00 -0400
 categories: [Projects, 2D Material]
-tags: [2d material]
+tags: [2dmaterial]
 math: true
 mermaid: true
 # image:
@@ -13,5 +13,4 @@ mermaid: true
 #   alt: Responsive rendering of Chirpy theme on multiple devices.
 ---
 
-**Instructor**: Yaqing Bie
-**Breif Introduction**: Characterized the phonon vibration mode of twisted bilayer and qua-layer $MoTe_2$  
+This is a test!
