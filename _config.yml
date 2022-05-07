@@ -10,7 +10,7 @@ baseurl: ''
 # The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
 # If it has the same name as one of the files in folder `_data/locales`, the layout language will also be changed,
 # otherwise, the layout language will use the default value of 'en'.
-lang: en
+lang: en, zh-TW
 
 # Additional parameters for datetime localization, optional. › https://github.com/iamkun/dayjs/tree/dev/src/locale
 prefer_datetime_locale:
@@ -23,7 +23,7 @@ timezone: America/Detroit
 
 title: CCQ's Blog                          # the main title
 
-tagline: a personal blog
+tagline: 誰謂河廣，一葦杭之 #a personal blog
 # "等一朵花开需要很多的耐心和微笑" \\
 # “It need a lot of patience and smiles to wait for a flower blooms”  # it will display as the sub-title
 
