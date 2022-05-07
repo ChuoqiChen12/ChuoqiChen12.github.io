@@ -30,6 +30,9 @@ timezone: America/Detroit
 
 title: CCQ's Blog                          # the main title
 
+bold: 
+- 誰謂河廣，一葦杭之
+
 tagline: 誰謂河廣，一葦杭之 #a personal blog
 # "等一朵花开需要很多的耐心和微笑" \\
 # “It need a lot of patience and smiles to wait for a flower blooms”  # it will display as the sub-title
