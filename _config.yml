@@ -71,7 +71,7 @@ google_analytics:
   id: 'UA-227243083-1'                 # fill in your Google Analytics ID
   # Google Analytics pageviews report settings
   pv:
-    proxy_endpoint: '	https://my-blog2-349614.uk.r.appspot.com/query?id=ahFkfm15LWJsb2cyLTM0OTYxNHIVCxIIQXBpUXVlcnkYgICAmPvPgQoM'   # fill in the Google Analytics superProxy endpoint of Google App Engine
+    proxy_endpoint: 'https://my-blog2-349614.uk.r.appspot.com/query?id=ahFkfm15LWJsb2cyLTM0OTYxNHIVCxIIQXBpUXVlcnkYgICAmPvPgQoM'   # fill in the Google Analytics superProxy endpoint of Google App Engine
     cache_path:       # the local PV cache data, friendly to visitors from GFW region
 # Google Analytics
 # google_analytics: G-ZNNDFXSJD3
