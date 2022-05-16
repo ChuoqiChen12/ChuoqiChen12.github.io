@@ -14,3 +14,7 @@ mermaid: true
 ---
 
 This is a test for emoji. :simple_smile:
+
+Gone camping! :tent: Be back soon.
+
+Another Test 😀
