@@ -20,8 +20,14 @@
     {% if site.google_analytics.pv.cache_path %}
       <meta name="pv-cache-path" content="{{ site.google_analytics.pv.cache_path | relative_url }}">
     {% endif %}
-
+    
   {% endif %}
+
+  {% if page.layout == 'post' %}
+    {% if site.comments == 'valine' and page.comments == true %}
+      <script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+    {% endif %}
+  {% endif %} 
 
   {% seo title=false %}
 
