@@ -13,8 +13,16 @@ mermaid: true
 #   alt: Responsive rendering of Chirpy theme on multiple devices.
 ---
 
-This is a test for emoji. :simple_smile:
+## Milestone of my blog
 
-Gone camping! :tent: Be back soon.
+✅ 2022.03.05 -- Original Set up of My Blog (Avatar, Favicon)
+✅ 2022.05.06 -- Write posts
+✅ 2022.03.05 -- Google Analystics setup
+✅ 2022.05.08 -- Page view setup
+✅ 2022.05.16 -- Comments system Giscus setup
+✅ 2022.05.16 -- Emoji Test
 
-Another Test 😀
+## Unfinished Feature
+🔲 Valine/Waline comment system setup
+🔲 Theme color change
+
