@@ -1,7 +1,7 @@
 ---
 title: Blog Changelog
 author: Chuoqi Chen
-date: 2022-05-06 12:58:00 -0400
+date: 2022-03-06 12:58:00 -0400
 categories: [Blogs]
 tags: [blogs]
 math: true
@@ -32,3 +32,4 @@ mermaid: true
 
 ⬜ Theme color change
 
+⬜ Modify quick review of each post
