@@ -12,6 +12,7 @@ mermaid: true
 #   height: 500
 #   alt: Responsive rendering of Chirpy theme on multiple devices.
 ---
+<style>body {text-align: justify}</style>
 
 Two novel neural network is purposed to solve problems in abodominal multi-organs segmentation:fragmental objects and failure in detecting small, direction-depend obejcts. 
 
@@ -31,7 +32,7 @@ In this project, we focus on the abdominal multi-organs segmentation problem. We
 ## Related Work(Baseline)
 In this section, recent work for medical image segmentation will be gone through. To achieve pixel-wise classification, reseachers proposed the encoder-decoder network structure. UNet is one of the most outstanding works among them. Based on the structure, novel techniques have been introducrure into UMet. 
 ### ResUNet
-Residual UNet(ResUNet) is inspired by ResNet. Previous results showed that with the humber of network layers increased, the feature identities and performance will loss. It is caused by vanishing gradients in deep network. 
+Residual UNet(ResUNet) is inspired by ResNet. Previous results showed that with the humber of network layers increased, the feature identities and performance will loss. It is caused by vanishing gradients in deep network. By concatenating 
 ### TramsUNet
 
 ### Swin-UNet

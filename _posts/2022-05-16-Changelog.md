@@ -12,6 +12,7 @@ mermaid: true
 #   height: 500
 #   alt: Responsive rendering of Chirpy theme on multiple devices.
 ---
+<style>body {text-align: justify}</style>
 
 ## Milestone of my blog
 
@@ -26,6 +27,8 @@ mermaid: true
 ✅ 2022.05.16 -- Comments system Giscus setup
 
 ✅ 2022.05.16 -- Emoji Test
+
+✅ 2022.05.28 -- Justify Content
 
 ## Unfinished Feature
 ⬜ Valine/Waline comment system setup
