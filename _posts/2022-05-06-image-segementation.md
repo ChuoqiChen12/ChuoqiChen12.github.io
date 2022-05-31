@@ -42,11 +42,14 @@ Based on the outstanding performance in Trans-UNet, optimization of Transformer 
 
 Though Swin-UNet has higher DICE score over TRansUNet in overall, which means that it could better classify each pixel in the right class, the results showed that the segmented objects trained by Swin-UNet is fragmental and have rougher edges compared to TransUNet.
 ### UTNet
+Although transformer variants perform well in vision tasks, pixels packed in the same input image patch does not contain enough spatial information, leading to weaker inductive bias compared with traditional CNN. Therefore, vision transformer-based models require large image set to gain enough prior knowledge in image domain. However, a major characteristic of medical image segmentation tasks is that they usually cannot provide such a big dataset, using pretrained weight on other large image datasets then becomes a widely adopted solution.
 
+UTNet, unlike other models, employs another method. Common vision transformer and their variants packing pixel into patches and flattening them into vectors while UTNet preserves the first few encoding layer as convolutional layer, the pixel-level spatial relations thus can be retained.
 ### UNETR
-
+UNETR proposed a novel transformer-based model for volumetric medical image segmentation. Instead, of extracting features with Transformers at the bottleneck of U-Net, UNETR has its skip-connected decoder combines representation from multiple intermediate Transformers layers. Deconvolutional layers are applied to these intermediate representation to increase the resolution. Sucj architechture helps the network capture global contextual representation at multiple scales and increase the cpaability for learning long-range dependencies
+### TransFuse
+In order to improve the efficiency of modeling global contexts and preserve low-level features, TransFuse uses a parallel approach to merge Transformers and CNNs. This allows the efficient collection of both global dependencies and low-level spatial features in a significantly shallower manner. The BiFusion module is a novel fusion techinique that efficiently fuses the multi-level features from both branches. According to the researches, TransFuse obtains the state-of-the-art results on both 2D and 3D medical picture sets with significantly fewer parameters and significanly faster inference.
 ## Proposed Method
-
 ## Evaluation
 
 ## Result Analysis
