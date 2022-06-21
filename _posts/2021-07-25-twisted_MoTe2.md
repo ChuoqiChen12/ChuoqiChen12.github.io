@@ -1,7 +1,7 @@
 ---
 title: Resonance-enhance Low-frequency Raman Scattering Study of Molybdenum Telluride
 author: Chuoqi Chen
-date: 2022-05-06 12:58:00 -0400
+date: 2021-07-25 09:00:00 -0400
 categories: [Projects, 2D Material]
 tags: [2d material]
 math: true
