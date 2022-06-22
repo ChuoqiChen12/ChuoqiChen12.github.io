@@ -1,7 +1,7 @@
 ---
 title: Blog Changelog
 author: Chuoqi Chen
-date: 2022-03-16 12:58:00 -0400
+date: 2020-03-16 12:58:00 -0400
 categories: [Blogs]
 tags: [blogs]
 math: true

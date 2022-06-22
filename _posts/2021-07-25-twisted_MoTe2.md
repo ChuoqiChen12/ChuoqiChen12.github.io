@@ -6,13 +6,34 @@ categories: [Projects, 2D Material]
 tags: [2d material]
 math: true
 mermaid: true
-# image:
-#   path: /commons/devices-mockup.png
-#   width: 800
-#   height: 500
-#   alt: Responsive rendering of Chirpy theme on multiple devices.
+image:
+  path: /commons/devices-mockup.png
+  width: 800
+  height: 500
+  alt: Responsive rendering of Chirpy theme on multiple devices.
+---
+<style>body {text-align: justify}</style>
+
+Designed and fabricated twisted bi-layer and qua-layer MoTe2. By characterizing the phonon vibration mode of the structure, phonon vibration control could be better known.
+
 ---
 
-**Instructor**: Yaqing Bie
+**Undergraduate Thesis Research**
 
-**Breif Introduction**: Characterized the phonon vibration mode of twisted bilayer and qua-layer $MoTe_2$  
+**Instructor**: Prof. Yaqing Bie from Sun Yat-sen University 
+
+**Duration**: *08/2020-08/2021*
+
+---
+
+## Introduction
+
+## Background
+
+## Experiments
+
+## Results
+
+## Conclusions
+
+## Notes
