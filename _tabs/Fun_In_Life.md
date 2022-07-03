@@ -32,9 +32,9 @@ This page records the wonders I found in life. 🌿
 **歌詞 Lyrics**
 
 > 秋天該很好 你若尚在場 The Fall should be perfect, if you were still here \\
-秋風即使帶涼 亦漂亮   Though the Autumn wind is cool, it's still very beautiful \\
-深秋中的你填密我夢想 You in late Autumn fill my dream \\
-就像落葉飛 輕敲我窗 Just like leaves fly in the sky and knocked the windows
+秋風即使帶涼 亦漂亮     Though the Autumn wind is cool, it's still very beautiful \\
+深秋中的你填密我夢想    You in late Autumn fill my dream \\
+就像落葉飛 輕敲我窗     Just like leaves fly in the sky and knocked the windows
 
 ## Winter in Ann Arbor
 
