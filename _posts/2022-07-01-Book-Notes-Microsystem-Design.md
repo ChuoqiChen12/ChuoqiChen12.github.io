@@ -117,4 +117,48 @@ Different product has different priority.
 Table 2.1 Relative Importance of High-Level Design Issues
 </p>
 
-#### 2.1.3 The Design Process
+### 2.2 Modeling Levels
+
+<p align = "center">
+<img src = "/assets/img/post/2022-07-01-notes-microsystem/2.2_modeling_levels.png">
+</p>
+<p align = "center">
+Fig.2.2 - Different modelings levels for microsystems. 
+</p>
+
+<p align="justify">
+At the top is the <i>system level</i>. A coupled set of ordinary differential equations (ODE's) to describe the dynamical behavior of the system(block-diagram descriptions and lumped-element circuit models), often written in  a coupled set of first-order ordinary differential equations for the state variables of the system. </p>
+
+<p align="justify">
+At the bottom is the <i>process level</i>. This is where the process sequence and photomask designs for device manufacture are created. (CAD & TCAD)</p>
+
+<p align="justify">
+The <i>physical level</i> addresses the behavior of real devices in the threedimensional continuum. The governing equations are typically partial differential equations (PDE's). </p>
+
+<p align="justify">
+At <i>device level</i>, create what are called macro-models or reduced-order models in a form that captures the essential physical behavior of a component of the system, and simultaneously is directly compatible with a system-level description.</p>
+
+#### 2.2.1 Analytical or Numerical?
+- **SIMULINK** for system-level modeling
+- **MATLAB** for selected numerical device-level and physical-level simulation
+
+Important block diagram can be referred.
+
+<p align = "center">
+<img src = "/assets/img/post/2022-07-01-notes-microsystem/2.3 Expanded view of the Modeling and Anlysis block.png">
+</p>
+<p align = "center">
+Fig.2.3 - Expanded view of the "Modeling and Analysis" block.
+</p>
+
+### 2.4 Going Forward From Here
+<p align="justify">
+Developing the analysis tools to assist in (1) the assessment of different device designs and their relative performance and (2) the prediction of performance (in great detail) for the design ultimately selected. The following issues are concerned: </p>
+
+- **System Architecture:** microfabricaed components, electronics and the package
+- **System Partitioning:** how affect packaging?
+- **Transduction Methods:** variations that would improve performance or reduce cost
+- **Domain-Specific Knowledge:** devices typically involve at least two energy domains(laws of physics and chemitry)
+- **Electronics:** Interface between physical device and electronic part of the system; device noise
+
+## Chapter 3 Introduction
