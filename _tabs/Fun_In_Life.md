@@ -16,6 +16,9 @@ author: Chuoqi Chen
 #   height: 500
 #   alt: Responsive rendering of Chirpy theme on multiple devices.
 ---
+> <i>Life is not about feeling good</i>
+>
+> <i>It's about feeling it all.</i>
 
 This page records the wonders I found in life. 🌿
 
