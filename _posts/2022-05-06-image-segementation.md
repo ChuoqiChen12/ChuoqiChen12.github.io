@@ -27,37 +27,37 @@ Two novel neural network is purposed to solve problems in abodominal multi-organ
 
 ---
 
-## **Introduction**
+## Introduction
 <p align="justify"> 
-During Diagnosis, treatment and surgery with computer aid, medical image segmentation plays a crucial part in identifying pixels of anatomical objects in medical images. However, it is a time-consuming and heavy work to conduct segmentation on images one by one by doctors. The primary challenges for segmentation mainly come from three aspects: (1) Complex boundary interactions, (2) Large appearance variation, (3) Low tissue contrast. These challenges. With the advance of deep learning, it is necessary to conduct new techniques to help medical image segmentation.  
+During Diagnosis, treatment and surgery with computer aid, medical image segmentation plays a crucial part in identifying pixels of anatomical objects in medical images. However, it is a time-consuming and heavy work to conduct segmentation on images one by one by doctors. The primary challenges for segmentation mainly come from three aspects: (1) Complex boundary interactions, (2) Large appearance variation, (3) Low tissue contrast. These challenges. With the advance of deep learning, it is necessary to conduct new techniques to help medical image segmentation.  <a href = "#reference"> [1] </a> <a id = "ref1"></a>
 </p>
 
 <p align="justify"> 
 In this project, we focused on the abdominal multi-organs segmentation problem. We proposed two novel neural network structures to solve two main problems: fragmental objects edges and failure to detect small, direction-dependent objects. The performance of medical image segmentation is expected to be enhanced by fusing Self Attention mechanism and convolutional neural network. 
 </p>
 
-## **Related Work**
+## Related Work
 <p align="justify"> 
-In this section, recent work for medical image segmentation will be gone through. To achieve pixel-wise classification, researchers proposed the encoder-decoder network structure. UNet is one of the most outstanding works among them. Based on the structure, novel techniques have been introduced into UNet. 
+In this section, recent work for medical image segmentation will be gone through. To achieve pixel-wise classification, researchers proposed the encoder-decoder network structure. UNet is one of the most outstanding works among them. Based on the structure, novel techniques have been introduced into UNet. <a href = "#reference"> [2] </a> <a id = "ref2"></a>
 </p>
 
 ### ResUNet
 <p align="justify"> 
-Residual UNet(ResUNet) is inspired by ResNet. Previous results showed that with the number of network layers increased, the feature identities and performance will be lost. It is caused by vanishing gradients in deep networks. By concatenating features, the skip connection before downsampling or upsampling in ResUNet helps preserve feature maps.
+Residual UNet(ResUNet)<a href = "#reference"> [3] </a> <a id = "ref3"></a> is inspired by ResNet.<a href = "#reference"> [4] </a> <a id = "ref4"></a> Previous results showed that with the number of network layers increased, the feature identities and performance will be lost. It is caused by vanishing gradients in deep networks. By concatenating features, the skip connection before downsampling or upsampling in ResUNet helps preserve feature maps.
 </p>
 
 <p align="justify"> 
 According to our results, ResUNet is capable of detecting all 13 organs in the Synapse dataset including small and directional objects such as the left and right adrenal gland. However, all other transformer-based models failed to do so. It can also perform better in segmenting other small organs such as portal vein and splenic vein. It is believed that the convolutional layer helps the model to detect and segmentate these small objects.
 </p>
 
-### TramsUNet
+### TransUNet
 <p align="justify"> 
-TranUNet is a model based on Transformers and UNet, leveraging both detailed high-resolution spatial information from CNN features and the global context encoded by Transformers. Transformer serves as a strong encoder, providing an attentive feature sequence. According to former results, this architecture achieves superior performance over any other method on medical image segmentation. Therefore, TransUNet works as the baseline model in this project and implements a novel model.
+TranUNet is a model based on Transformers and UNet, leveraging both detailed high-resolution spatial information from CNN features and the global context encoded by Transformers. Transformer serves as a strong encoder, providing an attentive feature sequence. According to former results, this architecture achieves superior performance over any other method on medical image segmentation. Therefore, TransUNet works as the baseline model in this project and implements a novel model.<a href = "#reference"> [5] </a> <a id = "ref5"></a>
 </p>
 
 ### Swin-UNet
 <p align="justify"> 
-Based on the outstanding performance in Trans-UNet, optimization of Transformer might be opt for image segmentation. Swin-UNet could be one among them. Different from all silices connected together in Trans-UNet, the limited slices are connected with the neighboring slices in Swin-UNet. When in the higher layer, the output from the neighbor transformer will be the input of the next layer. By this way, more details from the images could be trained and neighboring information could affect each other. 
+Based on the outstanding performance in Trans-UNet, optimization of Transformer might be opt for image segmentation. Swin-UNet could be one among them. Different from all silices connected together in Trans-UNet, the limited slices are connected with the neighboring slices in Swin-UNet. When in the higher layer, the output from the neighbor transformer will be the input of the next layer. By this way, more details from the images could be trained and neighboring information could affect each other. <a href = "#reference"> [6] </a> <a id = "ref6"></a>
 </p>
 
 <p align="justify"> 
@@ -70,20 +70,20 @@ Although transformer variants perform well in vision tasks, pixels packed in the
 </p>
 
 <p align="justify"> 
-UTNet, unlike other models, employs another method. Common vision transformers and their variants pack pixels into patches and flattening them into vectors while UTNet preserves the first few encoding layers as convolutional layers, the pixel-level spatial relations thus can be retained.
+UTNet, unlike other models, employs another method. Common vision transformers and their variants pack pixels into patches and flattening them into vectors while UTNet preserves the first few encoding layers as convolutional layers, the pixel-level spatial relations thus can be retained.<a href = "#reference"> [7] </a> <a id = "ref7"></a>
 </p>
 
 ### UNETR
 <p align="justify"> 
-UNETR proposed a novel transformer-based model for volumetric medical image segmentation. Instead of extracting features with Transformers at the bottleneck of U-Net, UNETR has its skip-connected decoder that combines representation from multiple intermediate Transformers layers. Deconvolutional layers are applied to these intermediate representations to increase the resolution. Such architecture helps the network capture global contextual representation at multiple scales and increase the capability for learning long-range dependencies.
+UNETR proposed a novel transformer-based model for volumetric medical image segmentation. Instead of extracting features with Transformers at the bottleneck of U-Net, UNETR has its skip-connected decoder that combines representation from multiple intermediate Transformers layers. Deconvolutional layers are applied to these intermediate representations to increase the resolution. Such architecture helps the network capture global contextual representation at multiple scales and increase the capability for learning long-range dependencies.<a href = "#reference"> [8] </a> <a id = "ref8"></a>
 </p>
 
 ### TransFuse
 <p align="justify"> 
-In order to improve the efficiency of modeling global contexts and preserve low-level features, TransFuse uses a parallel approach to merge Transformers and CNNs. This allows the efficient collection of both global dependencies and low-level spatial features in a significantly shallower manner. The BiFusion module is a novel fusion technique that efficiently fuses the multi-level features from both branches. According to the research, TransFuse obtains state-of-the-art results on both 2D and 3D medical picture sets with significantly fewer parameters and significantly faster inference.
+In order to improve the efficiency of modeling global contexts and preserve low-level features, TransFuse uses a parallel approach to merge Transformers and CNNs. This allows the efficient collection of both global dependencies and low-level spatial features in a significantly shallower manner. The BiFusion module is a novel fusion technique that efficiently fuses the multi-level features from both branches. According to the research, TransFuse obtains state-of-the-art results on both 2D and 3D medical picture sets with significantly fewer parameters and significantly faster inference.<a href = "#reference"> [9] </a> <a id = "ref9"></a>
 </p>
 
-## **Proposed Method**
+## Proposed Method
 
 <p align="justify"> 
 In our novel models, Swin-Transformer and UTNets act as encodes to learn sequence representations of the input and further enhance the efficiency in capturing the global information. The overall diagram of the proposed model is shown in Fig. 1. 
@@ -93,7 +93,7 @@ In our novel models, Swin-Transformer and UTNets act as encodes to learn sequenc
 <img src = "/assets/img/post/2022-05-06-image-segementation/pipeline2.png">
 </p>
 <p align = "center">
-Fig.1 - Pipeline
+Fig 1. - Pipeline
 </p>
 
 This model consists of two parallel branches that process information differently
@@ -123,11 +123,12 @@ $\hat{\textbf{c}}^i = \text{Conv}(\textbf{z}^i\textbf{W}_1^i\odot\textbf{l}^i\te
 <p align = "center">
 $\hat{\textbf{b}}^i = \text{Residual}([\hat{\textbf{c}}^i,\hat{\textbf{z}}^i,\hat{\textbf{l}}^i])$
 </p>
-where $\textbf{W}_1^i \in \mathbb{R}^{D_i\times L_i}$, $\textbf{W}_2^i \in \mathbb{R}^{C_i\times L_i}$, $|\odot|$ is the Hadamard product and Conv is a $3\times3$ convolution layer. The channel attention is implemented according to the SE-Block proposed by to facilitate global information from the Transformer branch. The spatial attention is adopted from CBAM block as spatial filters to enhance local details.
+<p align="justify"> 
+where $\textbf{W}_1^i \in \mathbb{R}^{D_i\times L_i}$, $\textbf{W}_2^i \in \mathbb{R}^{C_i\times L_i}$, $|\odot|$ is the Hadamard product and Conv is a $3\times3$ convolution layer. The channel attention is implemented according to the SE-Block proposed by to facilitate global information from the Transformer branch.<a href = "#reference"> [10] </a> <a id = "ref10"></a> The spatial attention is adopted from CBAM block as spatial filters to enhance local details.<a href = "#reference"> [11] </a> <a id = "ref11"></a></p>
 
 #### 4. Attention-gated skip-connection
 <p align="justify"> 
-It combines fused feature maps and generates the segmentation\cite{schlemper2019attention}. We obtain $\hat{\textbf{f}}^{i+1} = \text{Conv}([\text{Up}(\hat{\textbf{f}}^{i}), \text{AG}({\textbf{f}}^{i+1}, \text{Up}(\hat{\textbf{f}}^{i}))])$ and $\textbf{f}^{1}=\hat{\textbf{f}}^{1}$.
+It combines fused feature maps and generates the segmentation.<a href = "#reference"> [12] </a><a id = "ref12"></a>We obtain $\hat{\textbf{f}}^{i+1} = \text{Conv}([\text{Up}(\hat{\textbf{f}}^{i}), \text{AG}({\textbf{f}}^{i+1}, \text{Up}(\hat{\textbf{f}}^{i}))])$ and $\textbf{f}^{1}=\hat{\textbf{f}}^{1}$.
 </p>
 
 <p align="justify"> 
@@ -156,22 +157,22 @@ Therefore, we proposed UT-Fuse, fusing ResNet and UTNet with the BiFusion module
 Training method and parameters of UT-Fuse is consistent with that of Swin-Fuse.
 </p>
 
-## **Implementation**
+## Implementation
 <p align="justify"> 
-Synapse multi-organ image segmentation dataset acts as the data in this project, that was originally used for the MICCAI 2015 Multi-Atlas Abdomen Labeling Challenge. 50 abdomen CT scans are included in the dataset. To align with previous works, 30 out of 50 scans are used for this project. These CT scans range from $512 \times 512 \times 85$ to $512 \times 512 \times 198$ in pixels with resolution varying from $0.54 \times 0.54$ $mm^2$ to $0.98 \times 0.98$ $mm^2$. 13 different organs, including spleen, stomach, liver, etc. are labeled pixel by pixel.
+Synapse multi-organ image segmentation dataset acts as the data in this project, that was originally used for the MICCAI 2015 Multi-Atlas Abdomen Labeling Challenge.<a href = "#reference"> [13] </a> <a id = "ref13"></a> 50 abdomen CT scans are included in the dataset. To align with previous works, 30 out of 50 scans are used for this project. These CT scans range from $512 \times 512 \times 85$ to $512 \times 512 \times 198$ in pixels with resolution varying from $0.54 \times 0.54$ $mm^2$ to $0.98 \times 0.98$ $mm^2$. 13 different organs, including spleen, stomach, liver, etc. are labeled pixel by pixel.
 </p>
 
 <p align="justify"> 
 3D CT scan is cut into $512 \times 512$ pixel 2D images, and splited 12 out of 30 scans as testing images, which is consistent to preprocessing techniques mentioned in SwinUNet and TranUNet. Models such as TranUNet and SwinUNet use pretrained weight on large image dataset while novel architectural models like UTNet use a unique down-sampling method that requires specific image dimension. Therefore, the image is cropped to [224,224] or [256, 256] in dimension corresponding to the model requirements. In order to improve the robustness of the model, data augmentation methods such as random flip and random rotation have been applied.
 </p>
 
-## **Evaluation**
+## Evaluation
 <p align="justify"> 
 Though many transformer-based models reported better performance compared to traditional Res-UNet, only models of comparable sizes are used for evaluation. For example, Res-UNet based on ResNet-34 which has 63.5 million parameters and TransUNet based on vit-base-patch 16-224 which has 86 million parameters are used as reference models. The implemented hybrid model uses the pre-trained weight of ResNet-34 and Tiny Swin-Transformer (28 million parameters).
 </p>
 
 <p align="justify"> 
-For medical images segmentation, there are two types of errors related to segmentation accuracy, namely the delineation of the boundary (contour) and the size (volume of the segmented object). Two metrics for these two types of errors are selected based on literature review.
+For medical images segmentation, there are two types of errors related to segmentation accuracy, namely the delineation of the boundary (contour) and the size (volume of the segmented object). Two metrics for these two types of errors are selected based on literature review.<a href = "#reference"> [14] </a> <a id = "ref14"></a>
 </p>
 
 **Dice Coefficient**, also called the overlap index, is the most used metric in validating medical image segmentation, which is defined as
@@ -189,7 +190,7 @@ $h(A, B) = \max_{a\in A}\min_{b\in B} ||a-b||$
 </p>
 where $||\cdot||$ is a norm(normally Euclidean distance). Note that HD is sensitive to outliers and the $q$-th quantile of distances may be used instead of the maximum, so that possible outliers are excluded.
 
-## **Result Analysis**
+## Result Analysis
 <p align="justify"> 
 In this part, the average Dice Coefficient and average Hausdorff Distance(HD) on 13 organs will be reported. The organs included spleen, right kidney, left kidney, gallbladder, esophagus, liver, stomach, aorta, inferior vena cava, portal vein and splenic vein, pancreas, right adrenal gland, and left adrenal gland. They are splitted of 18 training cases (2212 axial slices) and 12 cases for validation. Table 1 and Table 2 showed the results comparison.
 </p>
@@ -240,14 +241,14 @@ Table 2: Mean hd95 by organs
 <img src = "/assets/img/post/2022-05-06-image-segementation/seg_result.png">
 </p>
 <p align = "center">
-Fig.1 - Pipeline
+Fig 2. -  Segmentation result of Synapse dataset.
 </p>
 
 <p align = "center">
 <img src = "/assets/img/post/2022-05-06-image-segementation/zoom.png">
 </p>
 <p align = "center">
-Fig.1 - Pipeline
+Fig 3. -  Local segmentation result for small objects
 </p>
 
 ### Swin-Fuse
@@ -264,40 +265,40 @@ UT-Fuse which is fused by hybrid UTNet and ResNet-34 has a better DICE score com
 The performance of UT-Fuse is generally better than almost all other models, however, it is inferior to UTNet in several classes. An interesting observation is that both Res-UNet and UTNet have higher DICE scores for gallbladder than UT-Fuse even though UT-Fuse is composed of these two models. This problem is possibly caused by the unclear boundary of gallbladder with other organs, when the BiFusion module fusing two separate models, information captured by lower layers are mixed up, which makes the model harder to separate Gallbladder and other organs.
 </p>
 
-## **Reference**
-[1] Hu Cao, Yueyue Wang, Joy Chen, Dongsheng Jiang, Xiaopeng Zhang, Qi Tian, and Manning Wang. 2021. Swin-unet: Unet-like pure transformer for medical image segmentation.
+## Reference
 
-[2] Jieneng Chen, Yongyi Lu, Qihang Yu, Xiangde Luo, Ehsan Adeli, Yan Wang, Le Lu, Alan L Yuille, and Yuyin Zhou. 2021. Transunet: Transformers make strong encoders for medical image segmentation. arXiv preprint arXiv:2102.04306.
+[[1]](#ref1) Sihang Zhou, Dong Nie, Ehsan Adeli, Jianping Yin, Jun Lian, and Dinggang Shen. 2019. High-resolution encoder-decoder networks for low-contrast medical image segmentation. IEEE Transactions on Image Processing, 29:461-475.
 
-[3] Yunhe Gao, Mu Zhou, and Dimitris N Metaxas. 2021. Utnet: a hybrid transformer architecture for medical image segmentation. In International Conference on Medical Image Computing and Computer-Assisted Intervention, pages 61-71. Springer.
+[[2]](#ref2) Olaf Ronneberger, Philipp Fischer, and Thomas Brox. 2015. U-net: Convolutional networks for biomedical image segmentation. In International Conference on Medical image computing and computer-assisted intervention, pages 234-241. Springer.
 
-[4] Ali Hatamizadeh, Yucheng Tang, Vishwesh Nath, Dong Yang, Andriy Myronenko, Bennett Landman, Holger Roth, and Daguang Xu. 2021. Unetr: Transformers for 3d medical image segmentation. 
+[[3]](#ref3) Zhengxin Zhang, Qingjie Liu, and Yunhong Wang. 2018. Road extraction by deep residual u-net. IEEE Geoscience and Remote Sensing Letters, 15(5):749-753.
 
-[5] Kaiming He, Xiangyu Zhang, Shaoqing Ren, and Jian Sun. 2016. Deep residual learning for image recognition. In Proceedings of the IEEE conference on computer vision and pattern recognition, pages 770-778.
+[[4]](#ref4) Kaiming He, Xiangyu Zhang, Shaoqing Ren, and Jian Sun. 2016. Deep residual learning for image recognition. In Proceedings of the IEEE conference on computer vision and pattern recognition, pages 770-778.
 
-[6] Mohammad Hesam Hesamian, Wenjing Jia, Xiangjian He, and Paul Kennedy. 2019. Deep learning techniques for medical image segmentation: achievements and challenges. Journal of digital imaging, 32(4):582-596.
+[[5]](#ref5) Jieneng Chen, Yongyi Lu, Qihang Yu, Xiangde Luo, Ehsan Adeli, Yan Wang, Le Lu, Alan L Yuille, and Yuyin Zhou. 2021. Transunet: Transformers make strong encoders for medical image segmentation. arXiv preprint arXiv:2102.04306.
 
-[7] Jie Hu, Li Shen, and Gang Sun. 2018. Squeeze-andexcitation networks. In Proceedings of the IEEE conference on computer vision and pattern recognition, pages 7132-7141.
+[[6]](#ref6) Hu Cao, Yueyue Wang, Joy Chen, Dongsheng Jiang, Xiaopeng Zhang, Qi Tian, and Manning Wang. 2021. Swin-unet: Unet-like pure transformer for medical image segmentation.
 
-[8] Liangliang Liu, Jianhong Cheng, Quan Quan, FangXiang Wu, Yu-Ping Wang, and Jianxin Wang. 2020.A survey on u-shaped networks in medical image segmentations. Neurocomputing, 409:244-258.
+[[7]](#ref7) Yunhe Gao, Mu Zhou, and Dimitris N Metaxas. 2021. Utnet: a hybrid transformer architecture for medical image segmentation. In International Conference on Medical Image Computing and Computer-Assisted Intervention, pages 61-71. Springer.
 
-[9] Shervin Minaee, Yuri Y Boykov, Fatih Porikli, Antonio J Plaza, Nasser Kehtarnavaz, and Demetri Terzopoulos. 2021. Image segmentation using deep learning: A survey. IEEE transactions on pattern analysis and machine intelligence.
- 
-[10] Olaf Ronneberger, Philipp Fischer, and Thomas Brox. 2015. U-net: Convolutional networks for biomedical image segmentation. In International Conference on Medical image computing and computer-assisted intervention, pages 234-241. Springer.
+[[8]](#ref8) Ali Hatamizadeh, Yucheng Tang, Vishwesh Nath, Dong Yang, Andriy Myronenko, Bennett Landman, Holger Roth, and Daguang Xu. 2021. Unetr: Transformers for 3d medical image segmentation. 
 
-[11] Jo Schlemper, Ozan Oktay, Michiel Schaap, Mattias Heinrich, Bernhard Kainz, Ben Glocker, and Daniel Rueckert. 2019. Attention gated networks: Learning to leverage salient regions in medical images. Medical image analysis, 53:197-207.
+[[9]](#ref9) Yundong Zhang, Huiye Liu, and Qiang Hu. 2021. Transfuse: Fusing transformers and cnns for medical image segmentation. In International Conference on Medical Image Computing and Computer-Assisted Intervention, pages 14-24. Springer.
 
-[12] Dinggang Shen, Guorong Wu, and Heung-Il Suk. 2017. Deep learning in medical image analysis. Annual review of biomedical engineering, 19:221-248.
+[[10]](#ref10) Jie Hu, Li Shen, and Gang Sun. 2018. Squeeze-andexcitation networks. In Proceedings of the IEEE conference on computer vision and pattern recognition, pages 7132-7141.
 
-[13] Abdel Aziz Taha and Allan Hanbury. 2015. Metrics for evaluating 3d medical image segmentation: analysis, selection, and tool. BMC medical imaging, 15(1):1-28.
+[[11]](#ref11) Sanghyun Woo, Jongchan Park, Joon-Young Lee, and In So Kweon. 2018. Cbam: Convolutional block attention module. In Proceedings of the European conference on computer vision (ECCV), pages 3-19.
 
-[14] Risheng Wang, Tao Lei, Ruixia Cui, Bingtao Zhang, Hongying Meng, and Asoke K. Nandi. 2022. Medical image segmentation using deep learning: A survey. IET Image Processing.
+[[12]](#ref12) Jo Schlemper, Ozan Oktay, Michiel Schaap, Mattias Heinrich, Bernhard Kainz, Ben Glocker, and Daniel Rueckert. 2019. Attention gated networks: Learning to leverage salient regions in medical images. Medical image analysis, 53:197-207.
 
-[15] Sanghyun Woo, Jongchan Park, Joon-Young Lee, and In So Kweon. 2018. Cbam: Convolutional block attention module. In Proceedings of the European conference on computer vision (ECCV), pages 3-19.
+[[13]](#ref13) info@sagebase.org Sage Bionetworks. Sage bionetworks.
 
-[16] Yundong Zhang, Huiye Liu, and Qiang Hu. 2021. Transfuse: Fusing transformers and cnns for medical image segmentation. In International Conference on Medical Image Computing and Computer-Assisted Intervention, pages 14-24. Springer.
+[[14]](#ref14) Abdel Aziz Taha and Allan Hanbury. 2015. Metrics for evaluating 3d medical image segmentation: analysis, selection, and tool. BMC medical imaging, 15(1):1-28.
 
-[17] Zhengxin Zhang, Qingjie Liu, and Yunhong Wang. 2018. Road extraction by deep residual u-net. IEEE Geoscience and Remote Sensing Letters, 15(5):749-753.
 
-[18] Sihang Zhou, Dong Nie, Ehsan Adeli, Jianping Yin, Jun Lian, and Dinggang Shen. 2019. High-resolution encoder-decoder networks for low-contrast medical image segmentation. IEEE Transactions on Image Processing, 29:461-475.
+
+
+
+
+
 

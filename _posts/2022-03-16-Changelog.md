@@ -30,6 +30,8 @@ mermaid: true
 
 ✅ 2022.05.28 -- Justify Content
 
+✅ 2022.07.19 -- Jump Reference
+
 ## Unfinished Feature
 ⬜ Valine/Waline comment system setup
 
