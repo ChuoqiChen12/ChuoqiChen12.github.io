@@ -30,9 +30,7 @@ Designed and fabricated twisted bi-layer and qua-layer MoTe2. By characterizing 
 <p align="justify">
 Phonon vibration modes are closely related to lattice structure, symmetry, defects and deviations. Twisted 2D materials(2DMs) can activate more Raman-inactive vibration modes. Therefore, an in-depth Raman spectroscopy research on twisted 2DMs is necessary to fully understand the properties of the materials. Moreover, the superlattice introduced by the twisted 2DMs causes the appearance of Moiré phonons,which means that Moiré have a modulating effect on phonon transport. Raman spectroscopy is the relatively simplest method to characterise this modulating effect. However, not all material systems have been studied in detail for their phonon vibration modes, and the physical mechanisms of Moiré phonons vibration have not been fully and comprehensively discussed, due to limitations in preparation techniques and experimental progress.</p>
 
-<a href="#back">back
-
-1 
+<a href="back">back</a>
 
 <p align="justify">
 This project has developed the following stable preparation process for materials where large area mechanical desorption is difficult to achieve: mechanical cleavage, followed by atomic force microscope cutting and dry transfer. This method is used for most 2D Materials that can be mechanically cleavage and allows the preparation of twisted 2D  Materials   samples with relatively small area. It could facilitate the Raman study of twistronics. What is more, this method does not require the aid of other 2D materials, allowing better study of the phonon vibration modes of the material itself.</p>
