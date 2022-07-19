@@ -26,8 +26,13 @@ Designed and fabricated twisted bi-layer and qua-layer MoTe2. By characterizing 
 
 ---
 ## Abstract
+
 <p align="justify">
 Phonon vibration modes are closely related to lattice structure, symmetry, defects and deviations. Twisted 2D materials(2DMs) can activate more Raman-inactive vibration modes. Therefore, an in-depth Raman spectroscopy research on twisted 2DMs is necessary to fully understand the properties of the materials. Moreover, the superlattice introduced by the twisted 2DMs causes the appearance of Moiré phonons,which means that Moiré have a modulating effect on phonon transport. Raman spectroscopy is the relatively simplest method to characterise this modulating effect. However, not all material systems have been studied in detail for their phonon vibration modes, and the physical mechanisms of Moiré phonons vibration have not been fully and comprehensively discussed, due to limitations in preparation techniques and experimental progress.</p>
+
+<a href="#back">back
+
+1 
 
 <p align="justify">
 This project has developed the following stable preparation process for materials where large area mechanical desorption is difficult to achieve: mechanical cleavage, followed by atomic force microscope cutting and dry transfer. This method is used for most 2D Materials that can be mechanically cleavage and allows the preparation of twisted 2D  Materials   samples with relatively small area. It could facilitate the Raman study of twistronics. What is more, this method does not require the aid of other 2D materials, allowing better study of the phonon vibration modes of the material itself.</p>
@@ -46,18 +51,20 @@ By studying all the vibrational modes of the material, it is possible to gain a 
 
 ## Chapter 1: Introduction
 <p align="justify">
-2D materials refer(2D Materials) to crystalline solids consisting of a single layer of atoms. Since these materials have one less dimension than bulk materials, the excellent mechanical, optical, and electrical properties of 2D materials are far superior to those of bulk materials. Based on the excellent properties of 2D materials, the devices designed based on them also have excellent performance,  with broad application prospects. 2D Materials are currently one of the hottest interests in academic research. 2D materials have a huge family of materials, and MoTe2 is one of them. This project mainly focuses on the Raman study of a special 2D material - Molybdenum Ditelluride (MoTe2), and its twisted samples.</p>
+Two-dimentional materials (2D Materials) refer to crystalline solids consisting of a single layer of atoms. Since these materials have one less dimension than bulk materials, the excellent mechanical, optical, and electrical properties of 2D materials are far superior to those of bulk materials. Based on the excellent properties of 2D materials, the devices designed based on them also have excellent performance,  with broad application prospects. 2D Materials are currently one of the hottest interests in academic research. 2D materials have a huge family of materials, and MoTe2 is one of them. This project mainly focuses on the Raman study of a special 2D material - Molybdenum Ditelluride (MoTe2), and its twisted samples.</p>
 
 <p align="justify">
 In this chapter, background, related work and research importance have been detaily explained.
 </p>
 
-### Background
+### Background <a id = "chap1.1"></a>
 <p align="justify">
-In 1965, Gordon Moore Gave a famous speech mentioning Moore's Law, which became a prediction for the semiconductor industry. [1] However, as the device size continues to shrink, new physical problems brought by the small size also rise. "Heat death" and "quantum uncertainty" are two main problems. New devices  based on new materials have become one of the important ways to solve the problem. Among them, 2D materials are one of the hottest research topics.</p>
+In 1965, Gordon Moore Gave a famous speech mentioning Moore's Law, which became a prediction for the semiconductor industry. <a id = "ref1"></a> [1](#Reference). However, as the device size continues to shrink, new physical problems brought by the small size also rise. "Heat death" and "quantum uncertainty" are two main problems. New devices  based on new materials have become one of the important ways to solve the problem. Among them, 2D materials are one of the hottest research topics.</p>
+
+[1](#Reference)
 
 <p align="justify">
-Since the discovery of graphene in 2004 by Professor Jem and Professor Novoselov of the University of Manchester, [2] more 2D materials have been discovered and studied by scientists, and great progress has been made. According to the elemental composition, materials can be mainly divided into the graphene family, Xenes, chalcogenides, 2D oxides and Transition Metal Dichalcogenides (TMDCs).</p>
+Since the discovery of graphene in 2004 by Professor Jem and Professor Novoselov of the University of Manchester, <a id = "ref2"></a>[2] more 2D materials have been discovered and studied by scientists, and great progress has been made. According to the elemental composition, materials can be mainly divided into the graphene family, Xenes, chalcogenides, 2D oxides and Transition Metal Dichalcogenides (TMDCs).</p>
 
 <p align="justify">
 Since 2D materials have no interlayer interactions, single-layer or thin-layer 2D materials have less electronic confinement and have excellent electrical properties. At the same time, since the thickness of 2D materials is at the atomic level, which provides great mechanical flexibility and optical transparency, it is expected to become a new generation of optoelectronic devices for fabrication of high flexibility and transparency. Based on the excellent mechanical, optical, and electrical properties of 2D materials, the heterostructures by stacking different 2D materials can be applied to field effect transistors, diodes and other applications. [3] These applications may help solve problems encountered in bulk material-based devices. However, due to the huge family of 2D materials, different 2D materials-based structural characterizations and studies are not very detailed and thorough.</p>
@@ -65,11 +72,14 @@ Since 2D materials have no interlayer interactions, single-layer or thin-layer 2
 <p align="justify">
 Among these structures, a special heterostructure, the twisted structure, has made great progress in recent years and has attained high attention. The twisted structure is to replace the other 2D materials of the heterojunction with the same 2D material, and form different atomic arrangements through relative rotation, thereby changing the arrangement of atoms between different layers to form a heterostructure. The superlattice is formed because the upper and lower layers interact with each other due to the twisted mismatch of the two layers. In the superlattice, the physical properties of the material will change, and the energy band, transport properties and other properties can be regulated by controlling the degree of the relative angle. At the same time, the formation of moiré patterns and superlattices from the twisted structure introduces new physical properties, which have attracted the attention of researchers. There are several ways to characterize the twisted structure: Raman spectroscopy, photoluminescence spectroscopy, second harmonic research, and light absorption research. As a means to directly study the phonon-related properties of the material itself, Raman spectroscopy can reflect the crystal structure, symmetry, defects and impurities of the material itself. The characterization of the results of twisted 2D materials can enrich more phonon vibration modes, which is of great significance for understanding the properties of the materials themselves.</p>
 
+
+
 <p align="justify">
 Although the properties of the twisted structure of some materials such as graphene and twisted molybdenum sulfide have been fully studied, the studies in the twisted 2D materials which cannot be obtained by growth methods and obtained with small area by mechanical cleavage are still incomplete. Limited by the single layer preparation method, the development of a small-area-friendly 2D material twisted preparation method is particularly important in the sustainable development of the twisted structure. The focus of this project has developed a process that can relatively stably prepare small-area 2D twisted samples. The structure is characterized by Raman Spectroscopy, and its phonon mode is studied, so as to fully understand the influence of the twisted stacking on the atomic lattice. The Moiré pattern is also studied in its effect on the phonon and its vibration modes.</p>
 
 <p align="justify">
 Based on the study of the phonon vibration modes under the twisted structure, we can understand the effect of Moiré patterns on phonons while better understanding this material. According to the relevant work, the phonon transport capacity under the superlattice will be improved. By using this method to prepare more 2D twisted structures, it is beneficial to understand the regulation of Moiré patterns on phonon transport under the same material system or under different material systems. Based on the generation of Moiré patterns and the physical mechanism, it is possible to develop "phonon engineering" because it might help solve the "heat depth" problem by controlling the carrier of heat - phonon.</p>
+
 
 ### Related Work
 #### The development of twisted structure
@@ -89,14 +99,14 @@ The development of preparation and characterization technology has made the rese
 Compared with the heterostructures composed of 2D materials with different lattice sizes, the lattice structure of the twisted bilayer has greater periodic symmetry, and the period of its crystal superlattice depends on the relative rotation angle. Due to the phonon folding effect of the superlattice, the folded acoustic and optical phonons should be observed by Raman spectroscopy. At the same time, the interlayer coupling in the twisted-structured superlattice also induces a periodic potential that can generate additional phonons, which can be understood by Raman spectroscopy. The twisted bilayer structure is the simplest prototype to understand the basic properties of the heterostructure, so the Raman characterization and research of the twisted structure are of great significance. [10] At the same time, Raman characterization is beneficial to understand the crystal structure, symmetry, defects and impurities of the material itself, so as to further understand the properties of the material itself. It's also beneficial to apply to different applications based on it.</p>
 
 <p align="justify">
-In addition to Raman spectroscopy, optical absorption, photoluminescence (PL), and Second Harmonic Generation (SHG) measurements are also commonly used to characterize optical properties. [3] According to the literature, the controllable twisted graphene light absorption compared with Bernal stack/AB stacked bilayer graphene, the efficiency of light absorption is about 35%, from the original 4.6% to about 6.2%. [11] According to a study in 2014, in the PL spectra of the twisted molybdenum sulfide samples, the PL peaks associated with the electronic coupling within the layer vary greatly under the modulation of the twisted angle. Although the research progresses on the twisted structure in 2019, a new physical concept - moiré exciton rises. This is closely related to the Moiré potential mentioned above, which affects the electronic coupling within the layer. [12] At present, the research on light absorption, PL spectrum, and SHG is still studied.</p>
+In addition to Raman spectroscopy, optical absorption, photoluminescence (PL), and Second Harmonic Generation (SHG) measurements are also commonly used to characterize optical properties. <a id = "ref3"></a>[3] According to the literature, the controllable twisted graphene light absorption compared with Bernal stack/AB stacked bilayer graphene, the efficiency of light absorption is about 35%, from the original 4.6% to about 6.2%. [11] According to a study in 2014, in the PL spectra of the twisted molybdenum sulfide samples, the PL peaks associated with the electronic coupling within the layer vary greatly under the modulation of the twisted angle. Although the research progresses on the twisted structure in 2019, a new physical concept - moiré exciton rises. This is closely related to the Moiré potential mentioned above, which affects the electronic coupling within the layer. [12] At present, the research on light absorption, PL spectrum, and SHG is still studied.</p>
 
 #### Development of Twisted Graphene
 <p align="justify">
 According to the current study, twisted graphene belongs to the system of bilayer breathing mode. Since the superlattice exhibits a θ-dependent orientation, a new long acoustic branch is excited in the Brillouin zone, which can be measured by first-order Raman scattering. It is worth noting that there are some similarities and differences between the first-order Raman measurement and the second-order Raman measurement.</p>
 
 <p align="justify">
-According to the Raman measurement of different twisted bilayer graphene, as shown in Figure 1.1., the formation of a superlattice will cause the following R peaks in the Raman measurement, which are highlighted with "*" in the figure. Curves with different colors represent excitation light at different wavelengths. Red, green, and blue represent: 633 nm, 514 nm, and 488 nm, respectively. Black is the peak position of silicon itself. By observing these new R peaks, it can be concluded that the superlattice activates the phonons inside the Brillouin zone, and the relative rotation angle θ will determine the wave vector, enabling modulation. Different vibrational peaks correspond to different phonon branches. [13]</p>
+According to the Raman measurement of different twisted bilayer graphene, as shown in Figure 1.1., the formation of a superlattice will cause the following R peaks in the Raman measurement, which are highlighted with "*" in the figure. Curves with different colors represent excitation light at different wavelengths. Red, green, and blue represent: 633 nm, 514 nm, and 488 nm, respectively. Black is the peak position of silicon itself. By observing these new R peaks, it can be concluded that the superlattice activates the phonons inside the Brillouin zone, and the relative rotation angle θ will determine the wave vector, enabling modulation. Different vibrational peaks correspond to different phonon branches. <a id = "ref13"></a>[13]</p>
 
 <p align = "left">
 <img src = "/assets/img/post/2021-07-25-twisted-MoTe2/1-1_GrapheneRaman2.jpg">
@@ -106,7 +116,7 @@ Fig 1.1 - First-order Raman spectroscopy of twisted graphene[13]
 </p>
 
 <p align="justify">
-For second-order Raman systems, the 2D peak (G' peak) can only be activated if there are defects in the graphene system. Its frequency depends on the excitation light wavelength, and is very sensitive to changes in the band structure of electrons and phonons, so the vibrational mode characterization of twisted graphene can be carried out through this vibrational mode. [14] According to Kim's research, the Full width at half maximum(FWHM), center wavelength of the 2D peaks all change with θ, as shown in Figure 1-2. [15]</p>
+For second-order Raman systems, the 2D peak (G' peak) can only be activated if there are defects in the graphene system. Its frequency depends on the excitation light wavelength, and is very sensitive to changes in the band structure of electrons and phonons, so the vibrational mode characterization of twisted graphene can be carried out through this vibrational mode. [14] According to Kim's research, the Full width at half maximum(FWHM), center wavelength of the 2D peaks all change with θ, as shown in Figure 1-2. <a id = "ref15"></a>[15]</p>
 
 <p align = "left">
 <img src = "/assets/img/post/2021-07-25-twisted-MoTe2/1-2_GrapheneRaman_2.jpg">
@@ -116,10 +126,10 @@ Fig 1.2 - Second-order Raman Spectroscopy of twisted graphene[15]
 </p>
 
 <p align="justify">
-The researchers also studied the double vibration modes of the twisted graphene, and came to the following conclusions: (1)the phonons in the valley are concentrated at the Γ point, while the phonon of double resonance outside the valley is near the K point;(2)the wave vectors of the different phonons of the double resonance Raman both are concentrated at the Γ point and K point of high symmetry; (3)under different excitation energies of light, the wave vector of the double resonance will change;(4)under the double resonance Raman, the defect peak needs to be activated to appear. [16]</p>
+The researchers also studied the double vibration modes of the twisted graphene, and came to the following conclusions: (1)the phonons in the valley are concentrated at the Γ point, while the phonon of double resonance outside the valley is near the K point;(2)the wave vectors of the different phonons of the double resonance Raman both are concentrated at the Γ point and K point of high symmetry; (3)under different excitation energies of light, the wave vector of the double resonance will change;(4)under the double resonance Raman, the defect peak needs to be activated to appear. <a id = "ref16"></a>[16]</p>
 
 <p align="justify">
-In the latest twisted Raman research, the researchers based on the principle that the electronic energy level structure of twisted graphene can achieve a low-energy Van Hove singularity through layer coupling. By adjusting the stacking angle of the twisted graphene, thereby modulating the third-order optical nonlinearity. Third-Harmonic Generation (THG) efficiency is greatly improved when the energy gap of the van Hove singularity matches the three-phonon resonance frequency of the incident light. Compared with the modulation of single-layer graphene, the efficiency of gate-controlled THG is enhanced by 60 times, and it has broad application prospects in tunable nonlinear optical devices. [17]</p>
+In the latest twisted Raman research, the researchers based on the principle that the electronic energy level structure of twisted graphene can achieve a low-energy Van Hove singularity through layer coupling. By adjusting the stacking angle of the twisted graphene, thereby modulating the third-order optical nonlinearity. Third-Harmonic Generation (THG) efficiency is greatly improved when the energy gap of the van Hove singularity matches the three-phonon resonance frequency of the incident light. Compared with the modulation of single-layer graphene, the efficiency of gate-controlled THG is enhanced by 60 times, and it has broad application prospects in tunable nonlinear optical devices. <a id = "ref17"></a>[17]</p>
 
 #### Phonon mode study of twisted molybdenum sulfide(MoS2)
 <p align="justify">
@@ -133,12 +143,12 @@ Fig 1.3 -Twisted MoS2 Raman spectroscopy[18]
 </p>
 
 <p align="justify">
-The latest research on twisted MoS2 has investigated small angles, whose Raman spectra are shown in Figures 1.3. According to the difference of Raman spectra, it can be divided into three regions: Relaxed Regime (0◦ ≤ θ < 2◦), Rigid Regime (θ ≥6◦) and Tradition Regime (2◦ ≤ θ < 6◦). Based on the symmetry, researchers speculate that these regions, phonons, will be renormalized. Near-field scanning presents challenges for the limitations of current scanning tunneling microscopy techniques. Then in the transition region, Raman spectroscopy can observe continuous, faint changes in atomic configuration and strain. This provides a new method for the study of material properties. [18]</p>
+The latest research on twisted MoS2 has investigated small angles, whose Raman spectra are shown in Figures 1.3. According to the difference of Raman spectra, it can be divided into three regions: Relaxed Regime (0◦ ≤ θ < 2◦), Rigid Regime (θ ≥6◦) and Tradition Regime (2◦ ≤ θ < 6◦). Based on the symmetry, researchers speculate that these regions, phonons, will be renormalized. Near-field scanning presents challenges for the limitations of current scanning tunneling microscopy techniques. Then in the transition region, Raman spectroscopy can observe continuous, faint changes in atomic configuration and strain. This provides a new method for the study of material properties. <a id = "ref18"></a>[18]</p>
 
 
 #### Phonon Vibratoin Mode of other twisted 2D materials Research
 <p align="justify">
-In addition to the two materials mentioned above, the research on the twisted structure of 2D materials such as tungsten selenide(WSn), tin diselenide(SnSe2), and tungsten disulfide(WS2) is the research object. According to the new study, low wavenumber measurements of twisted WSn can be used as a criterion for judging favorable relative angles of twisted samples. The central wavelength of the breathing mode shifts significantly with the change of angle. Its moving trend also takes 30° as the axis of symmetry, forming a symmetrical curve. In the range of 5° to 7°, the interlayer breathing pattern changes showed a clear angular dependence. But the blue-shift of the breathing mode only lasted to ∼14°, while the Raman frequency shift of the post-breathing mode remained almost unchanged. [19]</p>
+In addition to the two materials mentioned above, the research on the twisted structure of 2D materials such as tungsten selenide(WSn), tin diselenide(SnSe2), and tungsten disulfide(WS2) is the research object. According to the new study, low wavenumber measurements of twisted WSn can be used as a criterion for judging favorable relative angles of twisted samples. The central wavelength of the breathing mode shifts significantly with the change of angle. Its moving trend also takes 30° as the axis of symmetry, forming a symmetrical curve. In the range of 5° to 7°, the interlayer breathing pattern changes showed a clear angular dependence. But the blue-shift of the breathing mode only lasted to ∼14°, while the Raman frequency shift of the post-breathing mode remained almost unchanged. <a id = "ref19"></a>[19]</p>
 
 ### Reserch proposal and importance
 <p align="justify">
@@ -146,6 +156,7 @@ Raman spectroscopy is a powerful characterization method for the study of phonon
 
 <p align="justify">
 Compared with well-grown 2D materials such as sulfide and selenide, the atomic mass of the tellurium atom in MoTe2 is larger, and the phonon vibration mode is quite different from it. In order to understand all the phonon vibrational modes of MoTe2 and the Moiré phonons associated with MoTe2, a Raman study was performed on twisted MoTe2. In the selection of the number of MoTe2 layers, because the single-layer MoTe2 is easily oxidized at high temperature, and the transfer process needs to experience high temperature, this project selects a relatively stable and photoelectric property comparable to the single-layer MoTe2. Double-layer MoTe2 was used as the research object.</p>
+
 
 <p align="justify">
 The monolayer or thin layer of MoTe2 can only be obtained by mechanical cleavage, but due to its crystal size limitation and strong interlayer interaction, the obtained monolayer 2D material has only one side or only one side. ten microns. Its thin layer size greatly limits the fabrication of twisted structures, posing challenges to the continued development of twisted structures.</p>
@@ -169,10 +180,10 @@ In order to prepare the twisted samples, obtaining a thin layer sample is the fi
 There are a variety of techniques to obtain ultra-thin layers, including cleavage, liquid exfoliation, ion intercalation exfoliation, chemical vapor deposition, wet chemical synthesis. [3]</p>
 
 <p align="justify">
-The earliest and common method for preparing thin layers of 2D materials started from mechanical cleavage. It utilizes that the interaction between the adhesive tape and the 2D material is greater than the interlayer van der Waals force between the 2D materials to achieve thinning, and finally the sheet is transferred to the target substrate. This method can obtain relatively high-quality samples, but the yield is relatively low and extremely random. [2] Liquid exfoliation is also a traditional  method. Ultra-thin sample is attained by using ultrasound by placing the bulk crystals in Dimethylfor-Mamide (DMF) or N-Methyl-Pyrrolidone (NMP). This method utilizes the ultrasonic energy to destroy the van der Waals forces between the layers to achieve thinning of the material. This method enables relatively low-cost, high-yield fabrication of ultrathin 2D materials, but due to the toxicity of these organic solvents, there are high requirement for production equipment. Meantime, these organic solvents will remain on the 2D material, affecting the properties of the subsequent preparation of the 2D material device.[20]</p>
+The earliest and common method for preparing thin layers of 2D materials started from mechanical cleavage. It utilizes that the interaction between the adhesive tape and the 2D material is greater than the interlayer van der Waals force between the 2D materials to achieve thinning, and finally the sheet is transferred to the target substrate. This method can obtain relatively high-quality samples, but the yield is relatively low and extremely random. [2] Liquid exfoliation is also a traditional method. Ultra-thin sample is attained by using ultrasound by placing the bulk crystals in Dimethylfor-Mamide (DMF) or N-Methyl-Pyrrolidone (NMP). This method utilizes the ultrasonic energy to destroy the van der Waals forces between the layers to achieve thinning of the material. This method enables relatively low-cost, high-yield fabrication of ultrathin 2D materials, but due to the toxicity of these organic solvents, there are high requirement for production equipment. Meantime, these organic solvents will remain on the 2D material, affecting the properties of the subsequent preparation of the 2D material device.<a id = "ref20"></a>[20]</p>
 
 <p align="justify">
-The ion exfoliation method is to obtain thin-layer samples by embedding organic metal compounds in the interlayer space of bulk crystals to reduce the interlayer interaction force. This approach enables precise control of ion intercalation for efficient thinning. However, since the experimental process needs to last for a long time at high temperature, and the organometallic compounds may explode if exposed to oxygen and water, the preparation process is relatively cumbersome. [21]</p>
+The ion exfoliation method is to obtain thin-layer samples by embedding organic metal compounds in the interlayer space of bulk crystals to reduce the interlayer interaction force. This approach enables precise control of ion intercalation for efficient thinning. However, since the experimental process needs to last for a long time at high temperature, and the organometallic compounds may explode if exposed to oxygen and water, the preparation process is relatively cumbersome. <a id = "ref21"></a>[21]</p>
 
 <p align="justify">
 Chemical vapor deposition growth is to generate precursors by reacting the substrate under high temperature and high vacuum conditions, and then the precursors react and/or decompose on the surface of the substrate, thereby forming large-area ultra-thin 2D materials. This method can obtain relatively high-quality, large-area 2D materials with controllable size and thickness, and excellent performance. At present, this method is one of the important methods to obtain thin-layer 2D materials.</p>
@@ -218,16 +229,18 @@ In order to ensure the same crystal orientation of the upper and lower layers of
 In order to ensure that the angle of the rotating structure can be precisely controlled, the two samples of the twisted sample should keep the same crystal orientation before stacking. For the isotropic samples through mechanical cleavage, only the two-layer twisted samples are from the same single-layer or thin-layer sample, and the relative rotation of the upper and lower samples can be ensured by the relative twisted movement and transfer processing. The relative angle produced by the two layers of atoms is consistent with the macroscopic rotation angle. Therefore, the development of 2D material cutting technology is an inevitable subject for the preparation of twisted structures. At present, for samples obtained by mechanical cleavage, there are mainly the following cutting methods: assisted cutting of other 2D materials, laser cutting, atomic force microscopy cutting.</p>
 
 <p align="justify">
-In 2017, Yuan Cao and other researchers developed a "tear and stack" method, using hexagonal boron nitride(hBN) to assist the preparation of twisted graphene. Since the lattice structure and size of hBN and graphene are similar, the interaction force between the two is extremely strong. The force is greater than the force between graphene and the substrate, so that part of the sample is lifted. At the same time, due to the thin thickness of graphene, it is easy to produce wrinkles in direct contact with the PC film, so the hBN on the top layer can keep the graphene on the lower layer flat and play a protective role. [22]</p>
+In 2017, Yuan Cao and other researchers developed a "tear and stack" method, using hexagonal boron nitride(hBN) to assist the preparation of twisted graphene. Since the lattice structure and size of hBN and graphene are similar, the interaction force between the two is extremely strong. The force is greater than the force between graphene and the substrate, so that part of the sample is lifted. At the same time, due to the thin thickness of graphene, it is easy to produce wrinkles in direct contact with the PC film, so the hBN on the top layer can keep the graphene on the lower layer flat and play a protective role.<a id = "ref21"></a>[22]</p>
 
 <p align="justify">
-Laser cutting is also a commonly used cutting method. Using a high-power, concentrated laser to irradiate the sample, the energy of the photons causes the sample to be burned at a high temperature in a short period of time to achieve cutting. [23]</p>
+Laser cutting is also a commonly used cutting method. Using a high-power, concentrated laser to irradiate the sample, the energy of the photons causes the sample to be burned at a high temperature in a short period of time to achieve cutting. <a id = "ref23"></a>[23]</p>
 
 <p align="justify">
-In addition, the researchers have developed a method of cutting samples using atomic force microscopy, also known as Atomic Force Microscope Nanolithography. This method is based on the direct mechanical impact of a sharp atomic force microscope probe on the sample surface, so that the pressure of the probe tip on the surface is sufficient to cause deformation of the sample surface. The pressure applied to the sample can be controlled by the electric current passing through the atomic force microscope to realize the cutting of the sample. Similar is the way microneedles cut samples of 2D materials. This method also utilizes the mechanical impact force between the needle and the surface of the sample to cut the sample. [24]</p>
+In addition, the researchers have developed a method of cutting samples using atomic force microscopy, also known as Atomic Force Microscope Nanolithography. This method is based on the direct mechanical impact of a sharp atomic force microscope probe on the sample surface, so that the pressure of the probe tip on the surface is sufficient to cause deformation of the sample surface. The pressure applied to the sample can be controlled by the electric current passing through the atomic force microscope to realize the cutting of the sample. Similar is the way microneedles cut samples of 2D materials. This method also utilizes the mechanical impact force between the needle and the surface of the sample to cut the sample. <a id = "ref24"></a>[24]</p>
 
 <p align="justify">
 Each of the above methods has pros and cons. For the hBN-assisted dicing method, hBN as a cladding does play a protective role to air-sensitive 2D materials. However, because hBN is stacked on top and bottom, when measuring the interlayer interaction of the twisted sample, the interlayer interaction between hBN and other 2D materials will be introduced, which may cause new vibration modes to be excited. For the laser cutting method, due to the small area of some 2D materials, and the laser cut may be up to 5 microns in size, for these thin-layer samples whose size is only about 10 to 20 microns on a single side, it will cause a great loss of area, creating greater challenges for both preparation and subsequent measurements. Moreover, laser cutting may damage the lattice of the sample, which will affect the quality of the twisted sample. In contrast, AFM's incisions can be smaller than 1 micron, enabling precise, localized cuts. At the same time, the method of AFM can not introduce other 2D materials, avoid the introduction of new vibration modes, and affect the performance characterization of materials.</p>
+
+[this is a test](#abcd)
 
 <p align="justify">
 Comparing the above three methods, AFM cutting is the best solution for this project.</p>
@@ -480,13 +493,13 @@ In order to make the prepared heterostructures have stronger interaction force a
 One of the most common methods to clean the sample surface with organic solvents is organic solvents. Researchers often use organic solvents such as isopropanol, acetone, and anhydrous ethanol to process samples to dissolve the organics remaining from mechanical cleavage or other growth methods in these strong organic solvents to obtain relatively clean surfaces. However, during the cleaning process, the solvent or part of the organic matter on the sample is evenly distributed on the surface of the sample. The organic matter may float on the surface of the organic solvent, and when the sample is clamped, the organic matter on the surface may be brought back to the surface of the silicon wafer. Although this method is simple, it cannot completely remove the organic matter of the sample, and the residual degree of organic matter molecules is high.</p>
 
 <p align="justify">
-In addition to organic solvents cleaning, thermal annealing is also a common surface cleaning method. Under a certain high temperature, the organic matter on the sample is sublimated and taken away by the airflow under a stable airflow. In order to achieve the cleaning effect, the temperature of thermal annealing needs to be higher. [28]</p>
+In addition to organic solvents cleaning, thermal annealing is also a common surface cleaning method. Under a certain high temperature, the organic matter on the sample is sublimated and taken away by the airflow under a stable airflow. In order to achieve the cleaning effect, the temperature of thermal annealing needs to be higher. <a id = "ref28"></a>[28]</p>
 
 <p align="justify">
-The researchers also developed an AFM surface cleaning method based on the principle of AFM cutting. The atomic force microneedle uses an appropriate amount of force to continuously scan the surface of the sample, sweeping the raised object to the edge of the sample to achieve a cleaning effect. Without scratching the sample, the greater the force exerted by the atomic force microneedle, the more obvious the cleaning effect. [29;30]</p>
+The researchers also developed an AFM surface cleaning method based on the principle of AFM cutting. The atomic force microneedle uses an appropriate amount of force to continuously scan the surface of the sample, sweeping the raised object to the edge of the sample to achieve a cleaning effect. Without scratching the sample, the greater the force exerted by the atomic force microneedle, the more obvious the cleaning effect. <a id = "ref29"></a><a id = "ref30"></a>[29;30]</p>
 
 <p align="justify">
-In addition, in order to adapt to the surface cleaning of 2D materials in different environments, some researchers also use other methods to clean the surface. For example: in a cryogenic oven, it is difficult to anneal the crystal, and the researchers pass an electric current through the sample, and the residual particles are melted into a thin film due to Joule heat, or melted and sublimated to achieve surface cleaning. [31]</p>
+In addition, in order to adapt to the surface cleaning of 2D materials in different environments, some researchers also use other methods to clean the surface. For example: in a cryogenic oven, it is difficult to anneal the crystal, and the researchers pass an electric current through the sample, and the residual particles are melted into a thin film due to Joule heat, or melted and sublimated to achieve surface cleaning. <a id = "ref31"></a>[31]</p>
 
 <p align="justify">
 The surface cleaning of samples with organic solvents cannot remove all residues from the surface, which cannot meet the requirements of the surface cleanliness of 2D materials in this experiment. For the thermal annealing method, since the high temperature will damage the crystal lattice of the MoTe2 sample, resulting in irreparable damage and affecting the subsequent experimental measurements, it cannot meet the experimental requirements of this project. For the MoTe2 used in this project, which is sensitive to temperature and requires high surface cleanliness, it is a feasible solution to locally clean the surface of the sample through atomic force microscopy. This method can meet the cleanliness requirements of the sample surface for this project, and the sample can be cleaned to a single atomic layer. At the same time, this method does not cause lattice damage to the sample.</p>
@@ -528,7 +541,7 @@ In addition to surface cleaning of the samples before preparation, the interlaye
 For twisted samples, the relative rotation angle increases the distance between the upper and lower layers. The larger the angle of relative rotation and the larger the distance, the greater the negative impact on the interaction between layers. In this project, AFM can not only be used for cutting and surface cleaning of the underlying sample surface, but also to enhance the interaction between layers through AFM flattening technology.</p>
 
 <p align="justify">
-According to relevant literature, due to the uneven substrate and insufficient pressing force during mechanical cleavage, the thickness of graphene is higher than that of a single layer of atoms, which shows that graphene is not tightly combined with the substrate. A close contact between the graphene and the substrate is achieved through the contact mode scanning of the atomic force microscope - to achieve flattening. Similar turning angle samples are not equal to the thickness of two layers of samples stacked directly, and the interaction is not tightly bound and the distance brought by the relative turning angle affects the interaction. Similar to surface cleaning, this method physically flattens the sample. The enhanced interaction is achieved by applying the appropriate force to the 2D sample, that is, the force that is tightly bound to the sample surface but fails to scrape the sample, scans the sample surface in AFM contact mode and reduces the thickness of the twisted sample force effect. This method does not cause damage to the sample surface and is the appropriate method for this project. The stronger the scan, the more obvious the cleaning effect. [30]</p>
+According to relevant literature, due to the uneven substrate and insufficient pressing force during mechanical cleavage, the thickness of graphene is higher than that of a single layer of atoms, which shows that graphene is not tightly combined with the substrate. A close contact between the graphene and the substrate is achieved through the contact mode scanning of the atomic force microscope - to achieve flattening. Similar turning angle samples are not equal to the thickness of two layers of samples stacked directly, and the interaction is not tightly bound and the distance brought by the relative turning angle affects the interaction. Similar to surface cleaning, this method physically flattens the sample. The enhanced interaction is achieved by applying the appropriate force to the 2D sample, that is, the force that is tightly bound to the sample surface but fails to scrape the sample, scans the sample surface in AFM contact mode and reduces the thickness of the twisted sample force effect. This method does not cause damage to the sample surface and is the appropriate method for this project. The stronger the scan, the more obvious the cleaning effect. <a id = "ref30"></a>[30]</p>
 
 #### Heat Annealing
 <p align="justify">
@@ -556,6 +569,7 @@ This project mainly focuses on the study of the phonon vibration mode of twisted
 <p align="justify">
 This project speculates that the failure to observe the Raman vibration peaks related to Moiré phonons is mainly due to the insufficient interlayer interaction force of the twisted sample and the wrong choice of wavelength for measurement. Based on the relevant literature and the results of subsequent exploratory experiments, this project proposes the following experimental improvements: AFM surface cleaning, AFM flattening technology, and thermal annealing technology. At the same time, other wavelengths of measurement light and low-wave number Raman measurements were added to complete the study of all phonon modes of twisted MoTe2.</p>
 
+
 <p align="justify">
 This project develops a stable twisted structure preparation scheme for 2D materials with relatively small areas that can only be obtained by mechanical cleavage methods. Without other 2D as supplement layers, it is friendly to the low-wavenumber Raman research in the follow-up on the interlayer interaction of the twisted 2D materials.</p>
 
@@ -564,3 +578,73 @@ Because Raman research is a powerful characterization method for comprehensively
 
 <p align="justify">
 In addition, understanding the physical mechanism of phonon regulation of Moiré patterns is also conducive to the further development of "phonon engineering" to provide a physical basis for the preparation of devices with excellent phonon regulation.</p>
+
+## Reference
+
+[[1]](#ref1) MOORE G E. Cramming More Components onto Integrated Circuits[J]. Scandinavian Journalof Statistics, 1965, 39(3) : 399 - 415.  [test](#back)
+
+[[2]](#ref2) NOVOSELOV K S, JIANG D, SCHEDIN F, et al. Two-dimensional atomic crystals[J]. Proceedings of the National Academy of Sciences of the United States of America, 2005, 102(30) :10451 - 10453.
+
+[[3]](#ref3) GAO X-G, LI X-K, XIN W, et al. Fabrication, optical properties, and applications of twisted two-dimensional materials[J]. Nanophotonics, 2020, 9(7) : 1717 - 1742.
+
+[[4]](#ref4) PONG W T, DURKAN C. A review and outlook for an anomaly of scanning tunnelling microscopy (STM): Superlattices on graphite[J]. Journal of Physics D: Applied Physics, 2005, 38(21).
+
+[[5]](#ref5) RONG Z Y, KUIPER P. Electronic effects in scanning tunneling microscopy: Moiré pattern on a graphite surface[J]. Physical Review B, 1993, 48(23) : 17427 - 17431.
+
+[[6]](#ref6) BISTRITZER R, MACDONALD A H. Moiré bands in twisted double-layer graphene[J]. Proceedings of the National Academy of Sciences of the United States of America, 2011, 108(30) : 12233 - 12237.
+
+[[7]](#ref7) PARK J M, CAO Y, WATANABE K, et al. Tunable strongly coupled superconductivity in magicangle twisted trilayer graphene[J]. Nature, 2021, 590(October 2020).
+
+[[8]](#ref8) YU H, LIU G B, TANG J, et al. Moiré excitons: From programmable quantum emitter arrays to spin-orbit coupled artificial lattices[J]. SCIENCE ADVANCES, 2017, 3(e1701696) : 1 - 8.
+
+[[9]](#ref9) JIN C, KIM J, SUH J, et al. Interlayer electron-phonon coupling in WSe 2/hBN heterostructures[J]. Nature Physics, 2017, 13(2) : 127 - 131.
+
+[[10]](#ref10) LIN M L, TAN Q H, WU J B, et al. Moiré phonons in twisted bilayer MoS2[J]. ACS Nano, 2018, 12(8) : 8770 - 8780.
+
+[[11]](#ref11) CHEN X D, XIN W, JIANG W S, et al. High-Precision Twist-Controlled Bilayer and Trilayer Graphene[J]. Advanced Materials, 2016, 28(13) : 2563 - 2570.
+
+[[12]](#ref12) ALEXEEV E M, RUIZ-TIJERINA D A, DANOVICH M, et al. Resonantly hybridized excitons in moiré superlattices in van der Waals heterostructures[J]. Nature, 2019, 567(7746) : 81 - 86.
+
+[[13]](#ref13) CAMPOS-DELGADO J, CANÇADO L G, ACHETE C A, et al. Raman scattering study of the phonon dispersion in twisted bilayer graphene[J]. Nano Research, 2013, 6(4) : 269 - 274.
+
+[[14]](#ref14) FERRARI A C, MEYER J C, SCARDACI V, et al. Raman spectrum of graphene and graphene layers[J]. Physical Review Letters, 2006, 97(18) : 1 - 4.
+
+[[15]](#ref15) KIM K, COH S, TAN L Z, et al. Raman spectroscopy study of rotated double-layer graphene: Misorientation-angle dependence of electronic structure[J]. Physical Review Letters, 2012, 108(24) : 1 - 6.
+
+[[16]](#ref16) JORIO A, CANÇADO L G. Raman spectroscopy of twisted bilayer graphene[J]. Solid State Communications, 2013, 175-176 : 3 - 12.
+
+[[17]](#ref17) HA S, PARK N H, KIM H, et al. Enhanced third-harmonic generation by manipulating the twist angle of bilayer graphene[J]. Light: Science and Applications, 2021, 10(1).
+
+[[18]](#ref18) QUAN J, LINHART L, LIN M L, et al. Phonon renormalization in reconstructed MoS2 moiré superlattices[J]. Nature Materials, 2021.
+
+[[19]](#ref19) LIN K Q, HOLLER J, BAUER J M, et al. Large-scale mapping of moiré superlattices by Raman imaging of interlayer breathing mode and moiré phonons[J]. arXiv, 2020 : 1 - 20.
+
+[[20]](#ref20) NICOLOSI V, CHHOWALLA M, KANATZIDIS M G, et al. Liquid exfoliation of layered materials[J]. Science, 2013, 340(6139) : 72 - 75.
+
+[[21]](#ref21) JOENSEN P, FRINDT R F, MORRISON S R. Single-layer MoS2[J]. Materials Research Bulletin, 1986, 21(4) : 457 - 461.
+
+[[22]](#ref22) CAO Y, LUO J Y, FATEMI V, et al. Superlattice-Induced Insulating States and Valley-Protected Orbits in Twisted Bilayer Graphene[J]. Physical Review Letters, 2016, 117(11) : 1 - 5.
+
+[[23]](#ref23) ZHOU Y, BAO Q, VARGHESE B, et al. Microstructuring of graphene oxide nanosheets using direct laser writing[J]. Advanced Materials, 2010, 22(1) : 67 - 71.
+
+[[24]](#ref24) PUDDY R K, SCARD P H, TYNDALL D, et al. Atomic force microscope nanolithography of graphene: Cuts, pseudocuts, and tip current measurements[J]. Applied Physics Letters, 2011, 98(13) : 2 - 4.
+
+[[25]](#ref25) KIM C, YOON M-A, JANG B, et al. Review on Transfer Process of Two-dimensional Materials[J]. Tribology and Lubricants, 2020, 36(1) : 1 - 10.
+
+[[26]](#ref26) 杨序钢, 吴琪琳. 拉曼光谱的分析与应用 [M]. 北京 : 国防工业出版社, 2008.
+
+[[27]](#ref27) Guillaume Froehlicher,† Etienne Lorchat,† François Fernique,† Chaitanya Joshi, Alejandro Molina-Sánchez,‡ Ludger Wirtz , BERCIAUD* S. Unified Description of the Optical Phonon Modes in N‑Layer MoTe2[J], 2015
+
+[[28]](#ref28) CHENG Z, ZHOU Q, WANG C, et al. Toward intrinsic graphene surfaces: A systematic study on thermal annealing and wet-chemical treatment of SiO2-supported graphene devices[J]. Nano Letters, 2011, 11(2) : 767 - 771.
+
+[[29]](#ref29) LINDVALL N, KALABUKHOV A, YURGENS A. Cleaning graphene using atomic force microscope[J]. Journal of Applied Physics, 2012, 111(6).
+
+[[30]](#ref30) ROSENBERGER M R, CHUANG H J, MCCREARY K M, et al. Nano-”Squeegee” for the Creation of Clean 2D Material Interfaces[J]. ACS  Applied Materials and Interfaces, 2018, 10(12) : 10379 - 10387.
+
+[[31]](#ref31) MOSER J, BARREIRO A, BACHTOLD A. Current-induced cleaning of graphene[J]. Applied Physics Letters, 2007, 91(16) : 1 - 4.
+
+[[32]](#ref32) PURETZKY A A, LIANG L, LI X, et al. Twisted MoSe2 Bilayers with Variable Local Stacking and Interlayer Coupling Revealed by Low-Frequency Raman Spectroscopy[J]. ACS Nano, 2016, 10(2) : 2736 - 2744.
+
+[[33]](#ref33) ZHENG X, WEI Y, DENG C, et al. Controlled Layer-by-Layer Oxidation of MoTe2 via O3 Exposure[J]. ACS Applied Materials and Interfaces, 2018, 10(36) : 30045 - 30050.
+
+[[34]](#ref34) ZHU H, WANG Q, CHENG L, et al. Defects and Surface Structural Stability of MoTe2 under Vacuum Annealing[J]. ACS Nano, 2017, 11(11) : 11005 - 11014.
