@@ -55,7 +55,7 @@ In this chapter, background, related work and research importance have been deta
 
 ### Background <a id = "chap1.1"></a>
 <p align="justify">
-In 1965, Gordon Moore Gave a famous speech mentioning Moore's Law, which became a prediction for the semiconductor industry. <a id = "ref1"></a> [1](#reference). However, as the device size continues to shrink, new physical problems brought by the small size also rise. "Heat death" and "quantum uncertainty" are two main problems. New devices  based on new materials have become one of the important ways to solve the problem. Among them, 2D materials are one of the hottest research topics.</p>
+In 1965, Gordon Moore Gave a famous speech mentioning Moore's Law, which became a prediction for the semiconductor industry. <a id = "ref1"></a> [1] [jump](https://blog-ccq.com/posts/twisted_MoTe2/#reference). However, as the device size continues to shrink, new physical problems brought by the small size also rise. "Heat death" and "quantum uncertainty" are two main problems. New devices  based on new materials have become one of the important ways to solve the problem. Among them, 2D materials are one of the hottest research topics.</p>
 
 <p align="justify">
 Since the discovery of graphene in 2004 by Professor Jem and Professor Novoselov of the University of Manchester, <a id = "ref2"></a>[2] more 2D materials have been discovered and studied by scientists, and great progress has been made. According to the elemental composition, materials can be mainly divided into the graphene family, Xenes, chalcogenides, 2D oxides and Transition Metal Dichalcogenides (TMDCs).</p>
