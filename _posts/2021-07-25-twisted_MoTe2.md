@@ -55,9 +55,7 @@ In this chapter, background, related work and research importance have been deta
 
 ### Background <a id = "chap1.1"></a>
 <p align="justify">
-In 1965, Gordon Moore Gave a famous speech mentioning Moore's Law, which became a prediction for the semiconductor industry. <a id = "ref1"></a> [1](#Reference). However, as the device size continues to shrink, new physical problems brought by the small size also rise. "Heat death" and "quantum uncertainty" are two main problems. New devices  based on new materials have become one of the important ways to solve the problem. Among them, 2D materials are one of the hottest research topics.</p>
-
-[1](#Reference)
+In 1965, Gordon Moore Gave a famous speech mentioning Moore's Law, which became a prediction for the semiconductor industry. <a id = "ref1"></a> [1]. However, as the device size continues to shrink, new physical problems brought by the small size also rise. "Heat death" and "quantum uncertainty" are two main problems. New devices  based on new materials have become one of the important ways to solve the problem. Among them, 2D materials are one of the hottest research topics.</p>
 
 <p align="justify">
 Since the discovery of graphene in 2004 by Professor Jem and Professor Novoselov of the University of Manchester, <a id = "ref2"></a>[2] more 2D materials have been discovered and studied by scientists, and great progress has been made. According to the elemental composition, materials can be mainly divided into the graphene family, Xenes, chalcogenides, 2D oxides and Transition Metal Dichalcogenides (TMDCs).</p>
@@ -235,8 +233,6 @@ In addition, the researchers have developed a method of cutting samples using at
 
 <p align="justify">
 Each of the above methods has pros and cons. For the hBN-assisted dicing method, hBN as a cladding does play a protective role to air-sensitive 2D materials. However, because hBN is stacked on top and bottom, when measuring the interlayer interaction of the twisted sample, the interlayer interaction between hBN and other 2D materials will be introduced, which may cause new vibration modes to be excited. For the laser cutting method, due to the small area of some 2D materials, and the laser cut may be up to 5 microns in size, for these thin-layer samples whose size is only about 10 to 20 microns on a single side, it will cause a great loss of area, creating greater challenges for both preparation and subsequent measurements. Moreover, laser cutting may damage the lattice of the sample, which will affect the quality of the twisted sample. In contrast, AFM's incisions can be smaller than 1 micron, enabling precise, localized cuts. At the same time, the method of AFM can not introduce other 2D materials, avoid the introduction of new vibration modes, and affect the performance characterization of materials.</p>
-
-[this is a test](#abcd)
 
 <p align="justify">
 Comparing the above three methods, AFM cutting is the best solution for this project.</p>
@@ -583,27 +579,27 @@ In addition, understanding the physical mechanism of phonon regulation of Moiré
 
 [[3]](#ref3) GAO X-G, LI X-K, XIN W, et al. Fabrication, optical properties, and applications of twisted two-dimensional materials[J]. Nanophotonics, 2020, 9(7) : 1717 - 1742.
 
-[[4]](#ref4) PONG W T, DURKAN C. A review and outlook for an anomaly of scanning tunnelling microscopy (STM): Superlattices on graphite[J]. Journal of Physics D: Applied Physics, 2005, 38(21).
+[4] PONG W T, DURKAN C. A review and outlook for an anomaly of scanning tunnelling microscopy (STM): Superlattices on graphite[J]. Journal of Physics D: Applied Physics, 2005, 38(21).
 
-[[5]](#ref5) RONG Z Y, KUIPER P. Electronic effects in scanning tunneling microscopy: Moiré pattern on a graphite surface[J]. Physical Review B, 1993, 48(23) : 17427 - 17431.
+[5] RONG Z Y, KUIPER P. Electronic effects in scanning tunneling microscopy: Moiré pattern on a graphite surface[J]. Physical Review B, 1993, 48(23) : 17427 - 17431.
 
-[[6]](#ref6) BISTRITZER R, MACDONALD A H. Moiré bands in twisted double-layer graphene[J]. Proceedings of the National Academy of Sciences of the United States of America, 2011, 108(30) : 12233 - 12237.
+[6] BISTRITZER R, MACDONALD A H. Moiré bands in twisted double-layer graphene[J]. Proceedings of the National Academy of Sciences of the United States of America, 2011, 108(30) : 12233 - 12237.
 
-[[7]](#ref7) PARK J M, CAO Y, WATANABE K, et al. Tunable strongly coupled superconductivity in magicangle twisted trilayer graphene[J]. Nature, 2021, 590(October 2020).
+[7] PARK J M, CAO Y, WATANABE K, et al. Tunable strongly coupled superconductivity in magicangle twisted trilayer graphene[J]. Nature, 2021, 590(October 2020).
 
-[[8]](#ref8) YU H, LIU G B, TANG J, et al. Moiré excitons: From programmable quantum emitter arrays to spin-orbit coupled artificial lattices[J]. SCIENCE ADVANCES, 2017, 3(e1701696) : 1 - 8.
+[8] YU H, LIU G B, TANG J, et al. Moiré excitons: From programmable quantum emitter arrays to spin-orbit coupled artificial lattices[J]. SCIENCE ADVANCES, 2017, 3(e1701696) : 1 - 8.
 
-[[9]](#ref9) JIN C, KIM J, SUH J, et al. Interlayer electron-phonon coupling in WSe 2/hBN heterostructures[J]. Nature Physics, 2017, 13(2) : 127 - 131.
+[9] JIN C, KIM J, SUH J, et al. Interlayer electron-phonon coupling in WSe 2/hBN heterostructures[J]. Nature Physics, 2017, 13(2) : 127 - 131.
 
-[[10]](#ref10) LIN M L, TAN Q H, WU J B, et al. Moiré phonons in twisted bilayer MoS2[J]. ACS Nano, 2018, 12(8) : 8770 - 8780.
+[10] LIN M L, TAN Q H, WU J B, et al. Moiré phonons in twisted bilayer MoS2[J]. ACS Nano, 2018, 12(8) : 8770 - 8780.
 
-[[11]](#ref11) CHEN X D, XIN W, JIANG W S, et al. High-Precision Twist-Controlled Bilayer and Trilayer Graphene[J]. Advanced Materials, 2016, 28(13) : 2563 - 2570.
+[11] CHEN X D, XIN W, JIANG W S, et al. High-Precision Twist-Controlled Bilayer and Trilayer Graphene[J]. Advanced Materials, 2016, 28(13) : 2563 - 2570.
 
-[[12]](#ref12) ALEXEEV E M, RUIZ-TIJERINA D A, DANOVICH M, et al. Resonantly hybridized excitons in moiré superlattices in van der Waals heterostructures[J]. Nature, 2019, 567(7746) : 81 - 86.
+[12] ALEXEEV E M, RUIZ-TIJERINA D A, DANOVICH M, et al. Resonantly hybridized excitons in moiré superlattices in van der Waals heterostructures[J]. Nature, 2019, 567(7746) : 81 - 86.
 
 [[13]](#ref13) CAMPOS-DELGADO J, CANÇADO L G, ACHETE C A, et al. Raman scattering study of the phonon dispersion in twisted bilayer graphene[J]. Nano Research, 2013, 6(4) : 269 - 274.
 
-[[14]](#ref14) FERRARI A C, MEYER J C, SCARDACI V, et al. Raman spectrum of graphene and graphene layers[J]. Physical Review Letters, 2006, 97(18) : 1 - 4.
+[14] FERRARI A C, MEYER J C, SCARDACI V, et al. Raman spectrum of graphene and graphene layers[J]. Physical Review Letters, 2006, 97(18) : 1 - 4.
 
 [[15]](#ref15) KIM K, COH S, TAN L Z, et al. Raman spectroscopy study of rotated double-layer graphene: Misorientation-angle dependence of electronic structure[J]. Physical Review Letters, 2012, 108(24) : 1 - 6.
 
@@ -619,17 +615,17 @@ In addition, understanding the physical mechanism of phonon regulation of Moiré
 
 [[21]](#ref21) JOENSEN P, FRINDT R F, MORRISON S R. Single-layer MoS2[J]. Materials Research Bulletin, 1986, 21(4) : 457 - 461.
 
-[[22]](#ref22) CAO Y, LUO J Y, FATEMI V, et al. Superlattice-Induced Insulating States and Valley-Protected Orbits in Twisted Bilayer Graphene[J]. Physical Review Letters, 2016, 117(11) : 1 - 5.
+[22] CAO Y, LUO J Y, FATEMI V, et al. Superlattice-Induced Insulating States and Valley-Protected Orbits in Twisted Bilayer Graphene[J]. Physical Review Letters, 2016, 117(11) : 1 - 5.
 
 [[23]](#ref23) ZHOU Y, BAO Q, VARGHESE B, et al. Microstructuring of graphene oxide nanosheets using direct laser writing[J]. Advanced Materials, 2010, 22(1) : 67 - 71.
 
 [[24]](#ref24) PUDDY R K, SCARD P H, TYNDALL D, et al. Atomic force microscope nanolithography of graphene: Cuts, pseudocuts, and tip current measurements[J]. Applied Physics Letters, 2011, 98(13) : 2 - 4.
 
-[[25]](#ref25) KIM C, YOON M-A, JANG B, et al. Review on Transfer Process of Two-dimensional Materials[J]. Tribology and Lubricants, 2020, 36(1) : 1 - 10.
+[25] KIM C, YOON M-A, JANG B, et al. Review on Transfer Process of Two-dimensional Materials[J]. Tribology and Lubricants, 2020, 36(1) : 1 - 10.
 
-[[26]](#ref26) 杨序钢, 吴琪琳. 拉曼光谱的分析与应用 [M]. 北京 : 国防工业出版社, 2008.
+[26] 杨序钢, 吴琪琳. 拉曼光谱的分析与应用 [M]. 北京 : 国防工业出版社, 2008.
 
-[[27]](#ref27) Guillaume Froehlicher,† Etienne Lorchat,† François Fernique,† Chaitanya Joshi, Alejandro Molina-Sánchez,‡ Ludger Wirtz , BERCIAUD* S. Unified Description of the Optical Phonon Modes in N‑Layer MoTe2[J], 2015
+[27] Guillaume Froehlicher,† Etienne Lorchat,† François Fernique,† Chaitanya Joshi, Alejandro Molina-Sánchez,‡ Ludger Wirtz , BERCIAUD* S. Unified Description of the Optical Phonon Modes in N‑Layer MoTe2[J], 2015
 
 [[28]](#ref28) CHENG Z, ZHOU Q, WANG C, et al. Toward intrinsic graphene surfaces: A systematic study on thermal annealing and wet-chemical treatment of SiO2-supported graphene devices[J]. Nano Letters, 2011, 11(2) : 767 - 771.
 
@@ -639,8 +635,8 @@ In addition, understanding the physical mechanism of phonon regulation of Moiré
 
 [[31]](#ref31) MOSER J, BARREIRO A, BACHTOLD A. Current-induced cleaning of graphene[J]. Applied Physics Letters, 2007, 91(16) : 1 - 4.
 
-[[32]](#ref32) PURETZKY A A, LIANG L, LI X, et al. Twisted MoSe2 Bilayers with Variable Local Stacking and Interlayer Coupling Revealed by Low-Frequency Raman Spectroscopy[J]. ACS Nano, 2016, 10(2) : 2736 - 2744.
+[32] PURETZKY A A, LIANG L, LI X, et al. Twisted MoSe2 Bilayers with Variable Local Stacking and Interlayer Coupling Revealed by Low-Frequency Raman Spectroscopy[J]. ACS Nano, 2016, 10(2) : 2736 - 2744.
 
-[[33]](#ref33) ZHENG X, WEI Y, DENG C, et al. Controlled Layer-by-Layer Oxidation of MoTe2 via O3 Exposure[J]. ACS Applied Materials and Interfaces, 2018, 10(36) : 30045 - 30050.
+[33] ZHENG X, WEI Y, DENG C, et al. Controlled Layer-by-Layer Oxidation of MoTe2 via O3 Exposure[J]. ACS Applied Materials and Interfaces, 2018, 10(36) : 30045 - 30050.
 
-[[34]](#ref34) ZHU H, WANG Q, CHENG L, et al. Defects and Surface Structural Stability of MoTe2 under Vacuum Annealing[J]. ACS Nano, 2017, 11(11) : 11005 - 11014.
+[34] ZHU H, WANG Q, CHENG L, et al. Defects and Surface Structural Stability of MoTe2 under Vacuum Annealing[J]. ACS Nano, 2017, 11(11) : 11005 - 11014.
