@@ -38,3 +38,7 @@ mermaid: true
 ⬜ Theme color change
 
 ⬜ Modify quick review of each post
+
+⬜ Flashcard in Musing Tabs
+
+⬜ Color block in posts
