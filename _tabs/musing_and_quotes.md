@@ -14,3 +14,16 @@ author: Chuoqi Chen
 #   height: 500
 #   alt: Responsive rendering of Chirpy theme on multiple devices.
 ---
+
+I am still working on putting flashcards in this session.
+
+## Quotes
+> 等一朵花开需要很多的耐心和微笑 - 林帝浣
+> 
+> It need a lot of patience and smile to wait for a blooming flowers. -Diyuan Lin
+
+<p align = "left">
+<img src = "/assets/img/post/musing/wait.jpg">
+</p>
+
+> Wear the crown, bear the crown. 
