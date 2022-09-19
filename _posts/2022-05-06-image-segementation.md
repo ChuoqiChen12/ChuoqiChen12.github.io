@@ -4,6 +4,7 @@ author: Chuoqi Chen
 date: 2022-05-06 18:06:00 -0400
 categories: [Projects, Machine Learning]
 tags: [machine learning]
+preview: Two novel neural network is purposed to solve problems in abodominal multi-organs segmentation, fragmental objects and failure in detecting small, direction-depend objects. 
 math: true
 mermaid: true
 image:
@@ -14,11 +15,12 @@ image:
 ---
 <!-- <style>body {text-align: justify}</style> -->
 
-<p align="justify"> 
-Two novel neural network is purposed to solve problems in abodominal multi-organs segmentation: fragmental objects and failure in detecting small, direction-depend obejcts. 
-</p>
+<!-- <p align="justify"> 
+Two novel neural network is purposed to solve problems in abodominal multi-organs segmentation: fragmental objects and failure in detecting small, direction-depend objects. 
+</p> -->
+<!-- 
+--- -->
 
----
 **EECS545 Coursework Project**         
 
 **Duration**: *02/2022-05/2022*

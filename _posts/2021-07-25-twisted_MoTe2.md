@@ -2,8 +2,9 @@
 title: Resonance-enhance Low-frequency Raman Scattering Study of Molybdenum Telluride
 author: Chuoqi Chen
 date: 2021-07-25 09:00:00 -0400
-categories: [Projects, 2D Material]
-tags: [2d material]
+categories: [Research, 2D Material]
+tags: [2d material,fabrication]
+preview: Designed and fabricated twisted bi-layer and qua-layer MoTe2. By characterizing the phonon vibration mode of the structure, phonon vibration control could be better known.
 math: true
 mermaid: true
 image:
@@ -13,10 +14,10 @@ image:
   alt: Responsive rendering of Chirpy theme on multiple devices.
 ---
 
-<p align="justify">
+<!-- <p align="justify">
 Designed and fabricated twisted bi-layer and qua-layer MoTe2. By characterizing the phonon vibration mode of the structure, phonon vibration control could be better known.</p>
 
----
+--- -->
 
 **Undergraduate Thesis Research**
 

@@ -4,6 +4,7 @@ author: Chuoqi Chen
 date: 2022-07-19 20:00:00 -0400
 categories: [Book Notes, Neuroscience]
 tags: [neuroscience, notes]
+preview: This is my study Notes of the book "NEUROSCIENCE - Exploring the Brain".
 math: true
 mermaid: true
 image:
@@ -13,10 +14,10 @@ image:
   alt: Responsive rendering of Chirpy theme on multiple devices.
 ---
 
-<p align="justify">
+<!-- <p align="justify">
 This is my study Notes of the book "NEUROSCIENCE - Exploring the Brain". </p>
 
----
+--- -->
 
 **Title:** NEUROSCIENCE - Exploring the Brain
 

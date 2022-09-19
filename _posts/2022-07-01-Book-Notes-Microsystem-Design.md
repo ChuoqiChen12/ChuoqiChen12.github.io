@@ -4,6 +4,7 @@ author: Chuoqi Chen
 date: 2022-07-01 10:00:00 -0400
 categories: [Book Notes, Microsystem Design]
 tags: [mems, notes]
+preview: This is my study Notes of the book "MICROSYSTEM DESIGN". 
 math: true
 mermaid: true
 image:
@@ -14,9 +15,9 @@ image:
 ---
 <!-- <style>body {text-align: justify}</style> -->
 
-This is my study Notes of the book "MICROSYSTEM DESIGN". 
+<!-- This is my study Notes of the book "MICROSYSTEM DESIGN". 
 
----
+--- -->
 
 **Title:** Microsystem Design  
 

@@ -4,6 +4,7 @@ author: Chuoqi Chen
 date: 2020-03-16 12:58:00 -0400
 categories: [Blogs]
 tags: [blogs]
+preview: Milestone of the blog.
 math: true
 mermaid: true
 # image:
@@ -32,12 +33,12 @@ mermaid: true
 
 ✅ 2022.07.19 -- Jump Reference
 
+✅ 2022.09.19 -- Setup preview content
+
 ## Unfinished Feature
 ⬜ Valine/Waline comment system setup
 
 ⬜ Theme color change
-
-⬜ Modify quick review of each post
 
 ⬜ Flashcard in Musing Tabs
 
