@@ -9,24 +9,24 @@ order: 6
 
 Welcome to my Blog! 🌞
 
-# About Me 🍀
+## About Me 🍀
 
 Chuoqi Chen graduated and received her bachelor degree in Opto-Electronics Engineering from Sun Yat-sen University (SYSU) in 2021. Now she is pursueing her master degress in Electrical and Computer Engineering from University of Michigan-Ann Arbor (UMich).
 
-# Reserch Interest 👩‍💻
+## Reserch Interest 👩‍💻
 
-Chuoqi Chen
+BioMEMS, Biomedical devices, Neural Interfaces
 
-# Language ⭐
+## Lifelong Goal 🦌
 
-- Chinese(Native Speaker)
-- Cantonese(Native Speaker)
-- English(Fluent)
+- Make brain-neural-interfaces that are able to record people's emotion.  
+- Quantify depression, anxiety and other emotion.
+- Invent a health-companion for people with mental disorders.
 
-# Other Interest 💛
+## Other Interest 💛
 
+- Love to smile and cold jokes 😊
 - love to sing 🎤
-- love to listen to Cantonese Songs 🎧
-- like hanging out in nature 🌼
-
+- Cantonese and Cantonese Songs are my favourite 🎧
+- Like hanging out in nature 🌼
 
