@@ -20,3 +20,12 @@ image:
 **Duration**: *09/2022-present*
 
 ---
+
+**Progress**
+- Fabricated and characterized temperature and humidity sensors.
+- Assenbled off-the-shelf temperature and humidity sensors as phototype.
+- Board : ESP8266/Arduino Uno, Mux
+  - Interfaced with multiples semsors
+  - Wireless (Telnet Server)
+  - Connected to school internet (WPA2)
+- Designed graphical user interface phototype by python.

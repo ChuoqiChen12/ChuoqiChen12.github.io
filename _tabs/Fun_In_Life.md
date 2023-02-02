@@ -23,8 +23,9 @@ author: Chuoqi Chen
 This page records the wonders I found in life. 🌿
 
 ---
-## Autumn in Ann Arbor
+## Four Seasons in Ann Arbor
 
+### Autumn
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/1HekhXEir9k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
@@ -39,19 +40,36 @@ This page records the wonders I found in life. 🌿
 深秋中的你填密我夢想    You in late Autumn fill in my dreams \\
 就像落葉飛 輕敲我窗     Like fallen leaves, knocking on my window
 
----
-
-## Winter in Ann Arbor
+### Winter
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/OJKp7JGO9sQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 **Background Music:** Christmas Is Here - Anthem Lights
 
+<p align = "left">
+<img src = "/assets/img/post/Fun_In_Life/fruit.png">
+</p>
+
+<p align = "left">
+<img src = "/assets/img/post/Fun_In_Life/snowman.png">
+</p>
+
+
+---
+## Nature
+
+### Golden Mashroom and Seven-Spot Ladybird
+
+<p align = "left">
+<img src = "/assets/img/post/Fun_In_Life/mashroom.png">
+</p>
+
+---
+## Christmas
+###
+
 ---
 
-## Spring in Ann Arbor
-
----
 ## Neighbouring Friends
 ### Groundhog
 

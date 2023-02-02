@@ -43,3 +43,5 @@ mermaid: true
 ⬜ Flashcard in Musing Tabs
 
 ⬜ Color block in posts
+
+⬜ Justify figure size

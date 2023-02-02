@@ -170,15 +170,20 @@ Developing the analysis tools to assist in (1) the assessment of different devic
 ---
 
 # Chapter 3 Introduction
-> In small Propoertions we just beauties see;
->
-> And in short measures, life may perfect be 
+> In small Propoertions we just beauties see;<br/>
+> And in short measures, life may perfect be.
 > <p align="right"> -- Ben Jonson </p>
 
 ## 3.2 Wafer-level Processes
 ### 3.2.1 Substrates
 <p align="justify">
-Planar substrates of choice include single-crystal silicon, single-crystal quartz, glass, and fused (amorphous) quartz. [200 mm (8") dimater wafers are now standard, with 300 mm (12") diamter coming next] Careful planning and a well-designed product mix are required to make costeffective use of the production capacity of MEMS fabrication facilities.</p>
+<ul>
+  <li>single-crystal silicon</li>
+  <li>single-crystal quartz</li>
+  <li>glass</li>
+  <li>fused (amorphous) quartz</li>  
+</ul>
+</p>
 
 #### 3.2.1.1 Silicon Wafers
 <p align="justify">
